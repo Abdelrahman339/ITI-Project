@@ -266,16 +266,16 @@ p {
 /* End photos4 */
 
 /* End Section 2 */
-*
-{
+* {
     box-sizing: border-box;
 }
-.socialmediaIcons{
+
+.socialmediaIcons {
     display: flex;
-    
+
 }
-.phone
-{
+
+.phone {
     display: flex;
     justify-content: end;
     background-color: white;
@@ -284,32 +284,29 @@ p {
 
 }
 
-.phone a
-{
-   padding-left: 15px;
-   text-decoration: none;
-   color: #e7a331;
+.phone a {
+    padding-left: 15px;
+    text-decoration: none;
+    color: #e7a331;
 }
 
-.social-media
-{
+.social-media {
     display: flex;
     justify-content: end;
     background-color: white;
     padding-right: 200px;
     padding-top: 25px;
-    
+
 }
 
-.social-media a
-{
-   padding-left: 10px;
-   text-decoration: none;
-   color: #e7a331;
+.social-media a {
+    padding-left: 10px;
+    text-decoration: none;
+    color: #e7a331;
 }
 
-header
-{   display: flex;
+header {
+    display: flex;
     background-color: black;
     opacity: 75%;
     width: 100%;
@@ -320,43 +317,40 @@ header
     padding: 20px 100px 20px 1000px;
 }
 
-.navbar a 
-{
+.navbar a {
     display: inline-block;
-    color:white;
-    padding:  20px ;
+    color: white;
+    padding: 20px;
     font-size: 1.1em;
     font-weight: 500;
     text-decoration: none;
     text-align: center;
-  
+
 }
 
-.navbar a:hover
-{
+.navbar a:hover {
     background-color: #f1f1f1;
     color: black;
-    padding:  20px ;
+    padding: 20px;
     border-radius: 40px;
 }
 
-.navbar button
-{
+.navbar button {
     background-color: transparent;
-    color:#e7a331;
-    border:1px solid #f1f1f1;
+    color: #e7a331;
+    border: 1px solid #f1f1f1;
     border-radius: 4px;
     padding: 10px 25px;
     margin: 16px;
 }
 
-.navbar button:hover
-{
+.navbar button:hover {
     background-color: #f1f1f1;
     color: black;
-    padding: 10px 25px;   
-    border-radius: 40px; 
+    padding: 10px 25px;
+    border-radius: 40px;
 }
+
 /* header .navbar::before{
     content: "";
     color: black;
@@ -371,14 +365,12 @@ header
     z-index:999 ;
 } */
 
-section
-{
+section {
     padding: 100px 200px;
     position: relative;
 }
 
-.main
-{
+.main {
     width: 100%;
     min-height: 100vh;
     display: flex;
@@ -389,27 +381,25 @@ section
     background-attachment: fixed;
 }
 
-.main h1 
-{
-    color:white ;
+.main h1 {
+    color: white;
     font-size: 6em;
     font-weight: 700;
     text-align: center;
     font-family: 'Pacifico', cursive;
-}   
+}
 
-.main p 
-{
+.main p {
     font-size: 2.2em;
     font-weight: 200;
     letter-spacing: 1px;
     color: #f1f1f1;
     text-align: center;
 
-   
+
 }
 
-.main-btn{
+.main-btn {
     color: #f1f1f1;
     padding: 10px 25px;
     margin: 16px;
@@ -423,36 +413,40 @@ section
     position: absolute;
     left: 850px;
 }
-/* header css */
-@media (max-width: 800px)
 
-{
-    header{
+/* header css */
+@media (max-width: 800px) {
+    header {
         width: 100%;
         display: flex;
         flex-wrap: wrap;
         justify-content: center;
-        padding: 10px 10px 10px 0px ;
+        padding: 10px 10px 10px 0px;
 
 
     }
-    .navbar{
+
+    .navbar {
         display: flex;
         flex-wrap: wrap;
         justify-content: center;
     }
-    .navbar a{
+
+    .navbar a {
         display: flex;
         flex-wrap: wrap;
-        
+
     }
-    .social-media{
+
+    .social-media {
         padding-right: 100px;
     }
-    .phone{
-        padding-right:400px ;
+
+    .phone {
+        padding-right: 400px;
     }
 }
+
 /* @media (max-width: 800px)
 {
     header{
