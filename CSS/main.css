@@ -77,7 +77,7 @@ p {
 
 /* Start Section one */
 .section1 {
-    background-image: url(../PHOTO/about_us_photo/about\ us\ bg.png);
+    background-image: url(/ITIfinalProject/images/about-us/about\ us\ bg.png);
     display: flex;
     padding: 70px 0;
     /* height: 80vh; */
@@ -183,7 +183,7 @@ p {
     display: flex;
     padding: 70px 0;
     height: 100%;
-    background-image: url(/ITIfinalProject/PHOTO/special_recipes/special\ recipes\ bg.png);
+    background-image: url(/ITIfinalProject/images/special-recipes/special\ recipes\ bg.png);
     background-color: black;
     background-size: cover;
 }
@@ -375,12 +375,11 @@ section {
     min-height: 100vh;
     display: flex;
     align-items: center;
-    background: url(/ITI-Final-project/images/header/header.png) no-repeat;
+    background: url(/ITIfinalProject/images/header/header.png) no-repeat;
     background-size: cover;
     background-position: center;
     background-attachment: fixed;
 }
-
 .main h1 {
     color: white;
     font-size: 6em;
