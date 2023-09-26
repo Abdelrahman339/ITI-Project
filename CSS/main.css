@@ -1,8 +1,12 @@
 /* Start Global Rules */
-* {
+/* html{
+    scroll-behavior: smooth;
+} */
+*{
     margin: 0;
     padding: 0;
-    box-sizing: border-box;
+    box-sizing: border-box; 
+    
 }
 
 /* hjkgafhg */
@@ -77,13 +81,14 @@ p {
 
 /* Start Section one */
 .section1 {
-    background-image: url(/ITIfinalProject/images/about-us/about\ us\ bg.png);
+    background-image: url(../PHOTO/about_us_photo/about\ us\ bg.png);
     display: flex;
     padding: 70px 0;
-    /* height: 80vh; */
+    height: 100vh;
     background-size: cover;
     justify-content: center;
     position: relative;
+
 }
 
 .section1 .contanier {
@@ -183,7 +188,7 @@ p {
     display: flex;
     padding: 70px 0;
     height: 100%;
-    background-image: url(/ITIfinalProject/images/special-recipes/special\ recipes\ bg.png);
+    background-image: url(/ITIfinalProject/PHOTO/special_recipes/special\ recipes\ bg.png);
     background-color: black;
     background-size: cover;
 }
@@ -266,10 +271,24 @@ p {
 /* End photos4 */
 
 /* End Section 2 */
-* {
-    box-sizing: border-box;
-}
 
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+/* header css */
 .socialmediaIcons {
     display: flex;
 
@@ -304,15 +323,13 @@ p {
     text-decoration: none;
     color: #e7a331;
 }
+/* yasssmen*/
 
 header {
     display: flex;
     background-color: black;
     opacity: 75%;
     width: 100%;
-    position: fixed;
-    z-index: 999;
-    display: flex;
     align-items: center;
     padding: 20px 100px 20px 1000px;
 }
@@ -380,6 +397,7 @@ section {
     background-position: center;
     background-attachment: fixed;
 }
+
 .main h1 {
     color: white;
     font-size: 6em;
@@ -413,7 +431,6 @@ section {
     left: 850px;
 }
 
-/* header css */
 @media (max-width: 800px) {
     header {
         width: 100%;
