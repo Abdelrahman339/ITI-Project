@@ -266,13 +266,9 @@ p {
 /* End photos4 */
 
 /* End Section 2 */
-* {
-    box-sizing: border-box;
-}
 
 .socialmediaIcons {
     display: flex;
-
 }
 
 .phone {
