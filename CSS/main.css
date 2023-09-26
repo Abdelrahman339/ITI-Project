@@ -117,7 +117,8 @@ header {
     opacity: 75%;
     width: 100%;
     align-items: center;
-    padding: 20px 100px 20px 1000px;
+    /* padding: 20px 100px 20px 1000px; */
+    justify-content: flex-end;
 }
 
 .navbar a {
@@ -129,6 +130,12 @@ header {
     text-decoration: none;
     text-align: center;
 
+}
+
+.links {
+    display: flex;
+    align-items: center;
+    list-style-type: none;
 }
 
 .navbar a:hover {
