@@ -307,6 +307,26 @@ section {
 }
 
 
+.scoll-up {
+    position: fixed;
+    bottom: 0;
+    left: 0;
+    z-index: 9000;
+}
+
+.scoll-up button {
+    width: 100px;
+    height: 100px;
+    border-radius: 50%;
+    border: none;
+    background: red;
+}
+
+.scoll-up button a{
+    text-decoration: none;
+    color: white;
+    font-size: 30px;
+}
 
 
 
