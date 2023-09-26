@@ -80,7 +80,7 @@ p {
     background-image: url(/ITIfinalProject/images/about-us/about\ us\ bg.png);
     display: flex;
     padding: 70px 0;
-    /* height: 80vh; */
+    height: 100vh;
     background-size: cover;
     justify-content: center;
     position: relative;
