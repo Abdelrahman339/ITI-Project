@@ -144,6 +144,7 @@ header {
     padding: 20px;
     border-radius: 40px;
     width: 113px;
+    transition: 0.5s;
 }
 
 .navbar button {
