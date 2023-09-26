@@ -81,7 +81,7 @@ p {
 
 /* Start Section one */
 .section1 {
-    background-image: url(../PHOTO/about_us_photo/about\ us\ bg.png);
+    background-image: url(/ITIfinalProject/images/about-us/about\ us\ bg.png);
     display: flex;
     padding: 70px 0;
     height: 100vh;
@@ -188,7 +188,7 @@ p {
     display: flex;
     padding: 70px 0;
     height: 100%;
-    background-image: url(/ITIfinalProject/PHOTO/special_recipes/special\ recipes\ bg.png);
+    background-image: url(/ITIfinalProject/images/special-recipes/special\ recipes\ bg.png);
     background-color: black;
     background-size: cover;
 }
