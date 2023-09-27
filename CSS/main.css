@@ -5,9 +5,11 @@
     box-sizing: border-box;
 
 }
+
 html {
     scroll-behavior: smooth;
 }
+
 .contanier {
     padding: 0 15px;
 }
@@ -140,16 +142,14 @@ p {
     color: #e7a331;
 }
 
-.navbar::before {
+.navbar:before {
     content: "";
-    color: black;
     position: absolute;
-    top: -10px;
-    left: 100px;
-    width: 100px;
-    height: 100px;
-    border: 180px solid black;
-    border-color: #e7a331 transparent transparent transparent;
+    top: 0;
+    left:250px;
+    height: 400px;
+    border: 250px solid black;
+    border-color: orange transparent transparent transparent;
     z-index: 999;
 }
 
@@ -240,6 +240,7 @@ section {
     color: white;
     font: bold;
 }
+
 /* End header css */
 
 /* ##################################################################################### */
