@@ -130,7 +130,7 @@ p {
 
 .banner {
     width: 100%;
-    height: 100vh;
+    height: 135vh;
     background: url(/ITIfinalProject/images/header/header.png);
     background-size: cover;
     background-position: center;
@@ -152,9 +152,6 @@ p {
 .before a {
     font-size: 1em;
 }
-
-
-
 
 .navbar {
     width: 100%;
@@ -193,11 +190,11 @@ p {
     border-radius: 40px;
 }
 
-.navbar ul li .Table-Booking {
-    border: 4px solid #f1f1f1;
+.navbar ul li  .Table-Booking {
+    border: 1px solid #f1f1f1;
     border-radius: 5px;
     color: #e7a331;
-
+    padding: 20px;
 }
 
 .navbar ul li .Table-Booking:hover {
@@ -205,13 +202,13 @@ p {
     padding: 20px;
     border-radius: 40px;
 }
-}
+
 
 section {
     padding: 100px 100px;
     display: flex;
     flex-wrap: wrap;
-    align-items: center;
+    align-items:center;
     width: 100%;
     min-height: 100vh;
 }
@@ -222,6 +219,7 @@ section {
     font-size: 6em;
     font-weight: 700;
     text-align: center;
+    justify-content: center;
     font-size: bold;
     font-family: 'Pacifico', cursive;
 }
@@ -248,7 +246,7 @@ section {
     border-radius: 7px;
     display: inline-block;
     position: absolute;
-    left: 950px;
+    left: 850px;
 }
 
 .content-btn a {
