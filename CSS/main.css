@@ -178,7 +178,7 @@ section {
     min-height: 100vh;
     display: flex;
     align-items: center;
-    background: url(/ITIfinalProject/images/header/header.png) no-repeat;
+    background: url(/ITI-Project/images/header/header.png) no-repeat;
     background-size: cover;
     background-position: center;
     background-attachment: fixed;
@@ -374,7 +374,7 @@ section {
     display: flex;
     padding: 70px 0;
     height: 100%;
-    background-image: url(/ITIfinalProject/images/special-recipes/special\ recipes\ bg.png);
+    background-image: url(/ITI-Project/images/special-recipes/special\ recipes\ bg.png);
     background-color: black;
     background-size: cover;
 }
@@ -458,5 +458,95 @@ section {
 
 /* End Section 2 */
 
+/* nouran sections */
+
+.p1{
+    font-family: 'Borel', cursive;
+    text-align: center;
+    padding-top:50px ;
+}
+.p2{
+    text-align: center;
+    font-size: 30px;
+    padding-bottom: 30px;
+}
+.grid-container{
+   display: grid;
+   grid-template-columns: auto auto auto auto;    
+   row-gap: 40px;
+   justify-content: center;
+   align-items: center;
+   
+}
+
+.img{
+    position: relative; 
+    
+}
+.content{
+    position: absolute;
+    width: 140px;
+    height: 130px;
+    top: 2650px;
+    text-align: center; 
+    z-index: 999;
+    padding: 10px;
+    background-color: black;
+    color: white;
+    opacity: 0.9;
+    display: none;
+    margin: 7px;
+}
+
+.flex:hover  .content{
+    display: block;
+    
+}
+.content2{
+    position: absolute;
+    width: 140px;
+    height: 130px;
+    top: 2835px;
+    text-align: center; 
+    z-index: 999;
+    padding: 10px;
+    background-color: black;
+    color: white;
+    opacity: 0.9;
+    display: none;
+    margin: 7px;
+}
+.flex:hover .content2{
+    display: block;
+ 
+    transition: opacity 10s ease-in-out;
+}
+button{
+    background-color: #e79508;
+    color: white;
+    border-radius: 6px;
+    padding: 4px 10px;
+    border: none;
+}
+button:hover{
+    background-color: brown;
+}
+
+@media screen and (max-width:600px){
+    .grid-container{
+        grid-template-columns: auto auto  ;
+ 
+
+    } 
+    }
+
+@media screen and (max-width:500px){
+    .grid-container{
+        grid-template-columns: auto ;
+    }
+}
+
 /* ##################################################################################### */
 /* ##################################################################################### */
+
+
