@@ -190,7 +190,7 @@ p {
     border-radius: 40px;
 }
 
-.navbar ul li  .Table-Booking {
+.navbar ul li .Table-Booking {
     border: 1px solid #f1f1f1;
     border-radius: 5px;
     color: #e7a331;
@@ -208,7 +208,7 @@ section {
     padding: 100px 100px;
     display: flex;
     flex-wrap: wrap;
-    align-items:center;
+    align-items: center;
     width: 100%;
     min-height: 100vh;
     display: flex;
@@ -216,7 +216,7 @@ section {
     background: url(/ITIfinalProject/images/header/header.png) no-repeat;
     background-size: cover;
     background-position: center;
-    background-attachment: fixed;
+
 }
 
 .main h1 {
@@ -457,37 +457,44 @@ section {
 
 /* End Section 2 */
 
+
+
+
+
 /* nouran sections */
 
-.p1{
+.p1 {
     font-family: 'Borel', cursive;
     text-align: center;
-    padding-top:50px ;
+    padding-top: 50px;
 }
-.p2{
+
+.p2 {
     text-align: center;
     font-size: 30px;
     padding-bottom: 30px;
 }
-.grid-container{
-   display: grid;
-   grid-template-columns: auto auto auto auto;    
-   row-gap: 40px;
-   justify-content: center;
-   align-items: center;
-   
+
+.grid-container {
+    display: grid;
+    grid-template-columns: auto auto auto auto;
+    row-gap: 40px;
+    justify-content: center;
+    align-items: center;
+
 }
 
-.img{
-    position: relative; 
-    
+.img {
+    position: relative;
+
 }
-.content{
+
+.content {
     position: absolute;
     width: 140px;
     height: 130px;
-    top: 2650px;
-    text-align: center; 
+    top: 3200px;
+    text-align: center;
     z-index: 999;
     padding: 10px;
     background-color: black;
@@ -497,16 +504,17 @@ section {
     margin: 7px;
 }
 
-.flex:hover  .content{
+.flex:hover .content {
     display: block;
-    
+
 }
-.content2{
+
+.content2 {
     position: absolute;
     width: 140px;
     height: 130px;
-    top: 2835px;
-    text-align: center; 
+    top: 3400px;
+    text-align: center;
     z-index: 999;
     padding: 10px;
     background-color: black;
@@ -515,37 +523,38 @@ section {
     display: none;
     margin: 7px;
 }
-.flex:hover .content2{
+
+.flex:hover .content2 {
     display: block;
- 
+
     transition: opacity 10s ease-in-out;
 }
-button{
+
+button {
     background-color: #e79508;
     color: white;
     border-radius: 6px;
     padding: 4px 10px;
     border: none;
 }
-button:hover{
+
+button:hover {
     background-color: brown;
 }
 
-@media screen and (max-width:600px){
-    .grid-container{
-        grid-template-columns: auto auto  ;
- 
+@media screen and (max-width:600px) {
+    .grid-container {
+        grid-template-columns: auto auto;
 
-    } 
+
     }
+}
 
-@media screen and (max-width:500px){
-    .grid-container{
-        grid-template-columns: auto ;
+@media screen and (max-width:500px) {
+    .grid-container {
+        grid-template-columns: auto;
     }
 }
 
 /* ##################################################################################### */
 /* ##################################################################################### */
-
-
