@@ -181,15 +181,16 @@ p {
     color: white;
     text-align: center;
     padding: 20px;
+
 }
 
-.navbar ul li :hover {
+.navbar ul li  :hover {
     background-color: #f1f1f1;
     color: black;
     padding: 20px;
     border-radius: 40px;
     transition: .7s;
-    width: 113px;
+    
 }
 
 .navbar ul li .Table-Booking {
@@ -221,17 +222,19 @@ section {
 
 }
 
-.main h1 {
+.content3 h1 {
+    display: flex;
+ 
     color: white;
     font-size: 6em;
-    font-weight: 700;
+    align-content: center;
     text-align: center;
     justify-content: center;
-    font-size: bold;
-    font-family: 'Pacifico', cursive;
+    
+    
 }
 
-.content p {
+.content3 p {
 
     font-size: 2.2em;
     font-weight: 200;
