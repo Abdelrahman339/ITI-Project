@@ -474,7 +474,7 @@ section {
     background: url(/ITI-Project/images/delightful-experience/delighted\ experience\ bg.png ) ; 
     background-size: cover;
 }
-.paragraph{
+.paragraph2{
 display: grid;  
 align-items: center;
 align-content: center; 
@@ -496,7 +496,6 @@ height: 70vh;
 .grid-container { 
 
     display: grid;
-   
     grid-template-columns: auto auto auto auto;
     row-gap: 40px;
     justify-content: center;
