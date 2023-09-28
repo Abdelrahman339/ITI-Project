@@ -184,13 +184,13 @@ p {
 
 }
 
-.navbar ul li  :hover {
+.navbar ul li :hover {
     background-color: #f1f1f1;
     color: black;
     padding: 20px;
     border-radius: 40px;
     transition: .7s;
-    
+
 }
 
 .navbar ul li .Table-Booking {
@@ -213,25 +213,24 @@ section {
     flex-wrap: wrap;
     align-items: center;
     width: 100%;
-    min-height: 100vh;
+    min-height: 83vh;
     display: flex;
     align-items: center;
     background: url(/ITI-Project/images/header/header.png) no-repeat;
     background-size: cover;
     background-position: center;
-
 }
 
 .content3 h1 {
     display: flex;
- 
+
     color: white;
     font-size: 6em;
     align-content: center;
     text-align: center;
     justify-content: center;
-    
-    
+
+
 }
 
 .content3 p {
