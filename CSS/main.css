@@ -468,8 +468,20 @@ section {
 
 
 /* nouran sections */
+.parent{
 
+    height: 80vh;
+    background: url(/ITI-Project/images/delightful-experience/delighted\ experience\ bg.png ) ; 
+    background-size: cover;
+}
+.paragraph{
+display: grid;  
+align-items: center;
+align-content: center; 
+height: 70vh;
+}   
 .p1 {
+    
     font-family: 'Borel', cursive;
     text-align: center;
     padding-top: 50px;
@@ -481,8 +493,10 @@ section {
     padding-bottom: 30px;
 }
 
-.grid-container {
+.grid-container { 
+
     display: grid;
+   
     grid-template-columns: auto auto auto auto;
     row-gap: 40px;
     justify-content: center;
@@ -499,7 +513,7 @@ section {
     position: absolute;
     width: 140px;
     height: 130px;
-    top: 3200px;
+    top: 3285px;
     text-align: center;
     z-index: 999;
     padding: 10px;
@@ -519,7 +533,7 @@ section {
     position: absolute;
     width: 140px;
     height: 130px;
-    top: 3400px;
+    top: 3475px;
     text-align: center;
     z-index: 999;
     padding: 10px;
