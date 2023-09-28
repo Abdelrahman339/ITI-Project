@@ -83,7 +83,7 @@ p {
 
 /* yassmen sections */
 /* Start header css */
-.navbar:before {
+.social-media-icons:before {
     content: "";
     position: absolute;
     top: 0;
