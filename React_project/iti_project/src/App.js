@@ -6,6 +6,9 @@ import Photos2 from "./components/Abdelrahman_components/Photos2";
 import Special_recipes from './components/Abdelrahman_components/Special_recipes';
 import Photos3 from './components/Abdelrahman_components/Photos3';
 import Photos4 from './Photos4';
+import Before from "./components/yassmen component/before";
+import Navbar from "./components/yassmen component/navbar";
+import HomePage from "./components/yassmen component/homePage";
 import './App.css'
 function App() {
   return (
@@ -17,6 +20,7 @@ function App() {
           </div>
           <div className="about-us">
             <About_us />
+
             <div className="button">
               <Button />
             </div>
