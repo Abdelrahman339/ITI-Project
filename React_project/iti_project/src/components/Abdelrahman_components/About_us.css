@@ -1,0 +1,15 @@
+.About_us {
+    width: 700px;
+    padding: 10px;
+    margin-left: 20px;
+    margin-bottom: 70px;
+}
+
+.About_us h3 {
+    font-family: Georgia, 'Times New Roman', Times, serif;
+    font-weight: 500;
+}
+
+.About_us div {
+    padding: 7px;
+}
