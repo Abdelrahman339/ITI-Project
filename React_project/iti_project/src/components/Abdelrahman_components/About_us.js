@@ -1,5 +1,5 @@
 import React from 'react';
-import './About_us.css';
+
 function About_us() {
     return (
         <div className="About_us">
@@ -10,6 +10,7 @@ function About_us() {
             <div className="paragraph">
                 <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Asperiores placeat fugit at delectus ut
                     iusto.</p>
+                    {/* <br/> */}
                     <p>Lorem ipsum dolor sit, amet consectetur adipisicing elit. Dolorum minima illum saepe!
                         Reprehenderit minus, delectus tenetur velit numquam necessitatibus, nihil sit veritatis
                         consequatur in dolore? Eum nobis eos eaque odit. Lorem ipsum dolor sit amet consectetur
