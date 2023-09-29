@@ -17,7 +17,6 @@ function App() {
           </div>
           <div className="about-us">
             <About_us />
-
             <div className="button">
               <Button />
             </div>

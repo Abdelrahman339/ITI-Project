@@ -27,7 +27,7 @@ p {
 }
 
 
-@media (max-width: 768px) {
+/* @media (max-width: 768px) {
 
   .contanier {
     width: 100%;
@@ -72,7 +72,7 @@ p {
   .contanier {
     width: 1170px;
   }
-}
+} */
 
 /* End Global Rules */
 
@@ -292,10 +292,9 @@ section {
   background-size: cover;
   justify-content: center;
   position: relative;
-
 }
 
-.section1 .contanier {
+.section1 .container {
   display: inline-flex;
   flex-wrap: wrap;
   align-items: center;
@@ -366,7 +365,7 @@ section {
 
 /* Start photos1 */
 
-.section1 .contanier .photos1 {
+.section1 .contanier .Photos1 {
   display: flex;
   position: relative;
   width: 420px;
@@ -374,13 +373,13 @@ section {
   justify-content: center;
 }
 
-.section1 .contanier .photos1 .forward-img {
+.section1 .contanier .Photos1 .forward-img{
   position: relative;
   z-index: 2;
   justify-items: center;
 }
 
-.section1 .contanier .photos1 .backward-img {
+.section1 .contanier .Photos1 .backward-img{
   position: absolute;
   top: -22px;
   left: -70px;
@@ -391,7 +390,7 @@ section {
 /* Start photos2 */
 
 
-.section1 .photos2 {
+.section1 .Photos2 {
   position: absolute;
   bottom: 0;
   right: 0;
