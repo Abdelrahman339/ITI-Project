@@ -82,16 +82,16 @@ p {
 /* yassmen sections */
 /* Start header css */
 
-/* .social-media-icons:before {
+.social-media-icons:before {
     content: "";
     position: absolute;
     top: 0;
     left: 50px;
     min-height: 400px;
-    border: 250px solid black;
+    border: 200px solid black;
     border-color: orange transparent transparent transparent;
     z-index: 999;
-} */
+}
 
 .before {
     background-color: white;
