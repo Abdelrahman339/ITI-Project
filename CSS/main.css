@@ -314,29 +314,6 @@ section {
 }
 
 
-.scoll-up {
-    position: fixed;
-    bottom: 10px;
-    left: 10px;
-    z-index: 9000;
-}
-
-.scoll-up button {
-    width: 50px;
-    height: 50px;
-    border-radius: 50%;
-    border: none;
-    background: red;
-}
-
-.scoll-up button a{
-    text-decoration: none;
-    color: white;
-    font-size: 30px;
-}
-
-
-
 .section1 .contanier .about-us h3 {
     font-family: Georgia, 'Times New Roman', Times, serif;
     font-weight: 500;
@@ -362,6 +339,29 @@ section {
 
 /* End About Us */
 
+/* start scroll up button */
+.scoll-up {
+    position: fixed;
+    bottom: 10px;
+    left: 10px;
+    z-index: 9000;
+}
+
+.scoll-up button {
+    width: 50px;
+    height: 50px;
+    border-radius: 50%;
+    border: none;
+    background: red;
+}
+
+.scoll-up button a {
+    text-decoration: none;
+    color: white;
+    font-size: 30px;
+}
+
+/* End scroll up button */
 
 
 /* Start photos1 */
