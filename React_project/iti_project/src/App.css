@@ -36,6 +36,7 @@ h3 {
   .section1 .contanier .about_us {
     margin-top: 36px;
     width: 200px;
+
   }
 
   .section1 .contanier .Photos1 {
@@ -43,6 +44,11 @@ h3 {
   }
 
   .section1 .contanier .Photos2 img {
+    display: none;
+  }
+
+
+  .Photos4 img {
     display: none;
   }
 }
@@ -64,10 +70,18 @@ h3 {
   .section1 .contanier .Photos2 img {
     width: 50px;
   }
+
+  .Photos3 img {
+    width: 50px;
+    height: 50px;
+  }
+
+  .Photos4 img {
+    width: 50px;
+  }
 }
 
 @media (min-width:570px) and (max-width: 768px) {
-
   .contanier {
     width: 100%;
   }
@@ -83,9 +97,19 @@ h3 {
   .section1 .contanier .Photos2 img {
     width: 100px;
   }
+
+  .Photos3 img {
+    width: 100px;
+    height: 100px;
+  }
+
+  .Photos4 img {
+    width: 100px;
+  }
 }
 
 @media (max-width: 768px) {
+
   .contanier {
     width: 750px;
   }
@@ -99,12 +123,23 @@ h3 {
   }
 
   .section1 .contanier .Photos2 img {
+    width: 150px;
+  }
+
+  .Photos3 img {
+    width: 300px;
+    height: 300px;
+  }
+
+  .Photos4 img {
     width: 150px;
   }
 
 }
 
 @media (min-width: 768px) and (max-width:1131px) {
+
+
   .contanier {
     width: 750px;
   }
@@ -121,6 +156,21 @@ h3 {
     width: 150px;
   }
 
+  .photos3 img {
+    width: 300px;
+    height: 300px;
+  }
+}
+
+.Photos4 img {
+  width: 150px;
+}
+
+
+@media (max-width:1600px) {
+  .social-media-icons::before {
+    display: none;
+  }
 }
 
 /* End Global Rules */
@@ -326,7 +376,7 @@ section {
   background-image: url(./images/about-us/about\ us\ bg.png);
   display: flex;
   padding: 70px 0;
-  height: 100vh;
+  height: 100%;
   background-size: cover;
   justify-content: center;
   position: relative;
