@@ -1,5 +1,6 @@
 import React from "react";
 import Grid from "./component";
+import  Photos9 from "./photo9";
 function Paragraph() {
     return (
         <>
@@ -15,6 +16,7 @@ function Paragraph() {
             <div class="grid-container">
                 <Grid />
             </div>
+            <Photos9/>
         </>
     );
 }

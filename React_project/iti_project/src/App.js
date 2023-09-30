@@ -23,8 +23,7 @@ function App() {
           <Route path="/pages" element={<Paragraph/>} />
         </Routes>
       </div>
-      <div className="bg">
-        </div>
+    
     </BrowserRouter>
     </>
   );

@@ -7,11 +7,12 @@ import Photos5 from "./photo5";
 import Photos6 from "./photo6";
 import Photos7 from "./photo7";
 import Photos8 from "./photo8";
+
 function Grid() {
 
     return (
         <>
-            {/* <div className="bg"> */}
+          
             <div className="flex">
                 <Photos1 />
                 <div className="content">
@@ -94,7 +95,7 @@ function Grid() {
                     </div>
                 </div>
             </div>
-            {/* </div> */}
+        
         </>
     )
 
