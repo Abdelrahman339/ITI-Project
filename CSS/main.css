@@ -632,7 +632,7 @@ button:hover {
 
 
 footer {
-    position: fixed;
+    /* position: fixed; */
     bottom: 0;
     left: 0;
     width: 100%;
@@ -644,7 +644,7 @@ footer {
     align-items: center;
     padding: 20px;
     margin: auto;
-    background-image: url(images/footer\ BG.png);
+    background-image: url(/ITI-Project/images/footer/footer\ BG.png);
 
 }
 
@@ -707,7 +707,7 @@ button:active {
 
 .section9 {
     width: 100%;
-    background-image: url(images/mobile\ app\ BG.png);
+    background-image: url(/ITI-Project/images/mobileapp/mobile\ app\ BG.png);
     background-color: black;
     display: inline-flex;
     flex-wrap: wrap;
@@ -721,10 +721,27 @@ button:active {
     display: inline-flex;
     justify-content: center;
     align-content: center;
+    flex-wrap: wrap;
 }
 
 .app {
     font-style: oblique;
     color: white;
     font-size: 30px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    padding-left: 40px;
+    margin-bottom: 100px;
+}
+
+.para p{
+    font-size: 60px;
+}
+.para{
+    margin-bottom: 40px;
+}
+.para span{
+    font-size: 100px;
+    font-weight: 300;
 }
