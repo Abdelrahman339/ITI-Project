@@ -135,21 +135,11 @@ p {
   color: #e7a331;
 }
 
-/* .banner {
-    width: 100%;
-    background-size: cover;
-    background-position: center;
-} */
-
 .banner .contanier {
-  /* background: url(/ITI-Project/images/header/header.png) no-repeat; */
+  background: url(./images/header/header.png) no-repeat;
   background-size: cover;
   background-position: center;
-  display: inline-flex;
-  flex-wrap: wrap;
-  align-items: center;
   height: 100%;
-  justify-content: center;
   width: 100%;
 }
 
@@ -285,7 +275,7 @@ section {
 
 /* Start Section one */
 .section1 {
-  /* background-image: url(/ITI-Project/images/about-us/about\ us\ bg.png); */
+  background-image: url(./images/about-us/about\ us\ bg.png);
   display: flex;
   padding: 70px 0;
   height: 100vh;
@@ -407,7 +397,7 @@ section {
   display: flex;
   padding: 70px 0;
   height: 100%;
-  /* background-image: url(/ITI-Project/React_project/iti_project/src/images/special-recipes/special\ recipes\ bg.png); */
+  background-image: url(./images/special-recipes/special\ recipes\ bg.png);
   background-color: black;
   background-size: cover;
 }

@@ -2,7 +2,7 @@ import React from 'react';
 
 function Button() {
     return (
-        <div className="Button">
+        <div className="button">
             <div class="button">
                 <button>clik here</button>
             </div>

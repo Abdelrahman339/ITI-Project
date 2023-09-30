@@ -1,7 +1,7 @@
 
 import About_us from "./components/Abdelrahman_components/About_us";
 import Button from "./components/Abdelrahman_components/button";
-import Photos1 from "./components/Abdelrahman_components/Photos1";
+// import Photos1 from "./components/Abdelrahman_components/Photos1";
 import Photos2 from "./components/Abdelrahman_components/Photos2";
 import Special_recipes from './components/Abdelrahman_components/Special_recipes';
 import Photos3 from './components/Abdelrahman_components/Photos3';
@@ -13,38 +13,39 @@ import './App.css'
 function App() {
   return (
     <>
-      <header> 
-        <div className="before">
-          <Before />
+      <div class="banner">
+        <div class="contanier">
+          <header>
+            <div className="before">
+              <Before />
+            </div>
+            <div className="navbar" id="Home">
+              <Navbar />
+            </div>
+          </header>
+          <section>
+            <div class="content3" id="Home">
+              <div class="cont">
+                <HomePage />
+              </div>
+            </div>
+          </section>
         </div>
-        <div className="navbar" id="Home">
-        <Navbar/>
-        </div>
-      </header>
-      <section>
-                <div class="content3" id="Home">
-                    <div class="cont">
-                      <HomePage/>
-                    </div>
-                </div>
-            </section>
-
+      </div>
       <div className="App">
         <div className="section1">
           <div className="container">
             <div className="Photos1">
-              <Photos1 />
             </div>
             <div className="about-us">
               <About_us />
-
               <div className="button">
                 <Button />
               </div>
             </div>
-            <div className="Photos2">
+              <div className="Photos2">
               <Photos2 />
-            </div>
+              </div>
           </div>
         </div>
 

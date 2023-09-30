@@ -1,7 +1,7 @@
 import React from "react";
 function Special_recipes() {
     return (
-        <div className="Special_recipes">
+        <div className="Special_recipes" id="Special-Recipes">
             <div className="heading">
                 <h1>Special recipes</h1>
                 <h3>TASTE OF PRECIOUS</h3>
