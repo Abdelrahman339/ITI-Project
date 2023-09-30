@@ -1,5 +1,5 @@
 import React from 'react';
-
+import Photos2 from './Photos2.js';
 function About_us() {
     return (
 
@@ -27,9 +27,7 @@ function About_us() {
                     <div className="button">
                         <button>clik here</button>
                     </div>
-                    <div className="Photos2">
-            <img src={ require('./images/about-us/about us 3.png')} />
-        </div>
+                    <Photos2/>
                 </div>
             </div>
         </div>

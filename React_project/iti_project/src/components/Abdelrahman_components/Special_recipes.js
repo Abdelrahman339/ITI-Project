@@ -1,9 +1,11 @@
 import React from "react";
+import Photos3 from "./Photos3";
+import  Photos4 from "./Photos4";
 function Special_recipes() {
     return (
+        <div className="section2">
         <div class="contanier">
-
-            <div className="Special_recipes" id="Special-Recipes">
+            <div className="Special_recipes" id="Special">
                 <div className="heading">
                     <h1>Special recipes</h1>
                     <h3>TASTE OF PRECIOUS</h3>
@@ -24,6 +26,9 @@ function Special_recipes() {
                     <button>clik here</button>
                 </div>
             </div>
+            <Photos3/>
+            <Photos4/>
+        </div>
         </div>
     );
 }

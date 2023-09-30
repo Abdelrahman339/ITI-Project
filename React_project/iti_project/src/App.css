@@ -503,12 +503,13 @@ section {
 
 
 /* nouran sections */
-.parent {
+.bg{
 
   height: 80vh;
   background: url(./images/delightful-experience/delighted\ experience\ bg.png);
   background-size: cover;
 }
+
 
 .paragraph2 {
   display: grid;
@@ -529,7 +530,14 @@ section {
   font-size: 30px;
   padding-bottom: 30px;
 }
-
+.p3{
+  font-size: 20px;
+  margin: 0;
+}
+.p4{
+  font-size: 15px;
+  padding-bottom: 5px;
+}
 .grid-container {
 
   display: grid;
