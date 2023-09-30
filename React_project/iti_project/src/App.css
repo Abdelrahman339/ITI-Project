@@ -154,7 +154,6 @@ h3 {
   min-height: 100px;
   justify-content: flex-end;
   background-color: black;
-
   padding-right: 50px;
 
 }
@@ -450,9 +449,9 @@ section {
 }
 
 .section2 .contanier .special-recipes .button {
-padding: 10px;
-padding-left:0 ;
-margin-top: 10px;
+  padding: 10px;
+  padding-left: 0;
+  margin-top: 10px;
 
 }
 
@@ -506,7 +505,7 @@ margin-top: 10px;
 .parent {
 
   height: 80vh;
-  background: url(./images/delightful-experience/delighted\ experience\ bg.png) ;
+  background: url(./images/delightful-experience/delighted\ experience\ bg.png);
   background-size: cover;
 }
 
