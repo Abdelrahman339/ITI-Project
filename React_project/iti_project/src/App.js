@@ -1,6 +1,6 @@
 
 import About_us from "./components/Abdelrahman_components/About_us";
-import Button from "./components/Abdelrahman_components/button";
+// import Button from "./components/Abdelrahman_components/button";
 // import Photos1 from "./components/Abdelrahman_components/Photos1";
 import Photos2 from "./components/Abdelrahman_components/Photos2";
 import Special_recipes from './components/Abdelrahman_components/Special_recipes';
@@ -23,7 +23,6 @@ function App() {
           <div className="contanier">
             <div className="special-recipes">
               <Special_recipes />
-              <Button />
             </div>
             <Photos3 />
             <Photos4 />
