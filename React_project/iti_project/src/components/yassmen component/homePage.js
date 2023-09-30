@@ -3,6 +3,8 @@ import React from 'react';
 function HomePage() {
 
     return (
+        <div class="banner">
+        <div class="contanier">
         <section>
             <div class="content3" id="Home">
                 <div class="cont">
@@ -18,6 +20,8 @@ function HomePage() {
                 </div>
             </div>
         </section>
+        </div>
+        </div>
     )
 }
 
