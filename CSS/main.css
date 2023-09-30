@@ -514,6 +514,7 @@ section {
 
 
 /* nouran sections */
+/*
 .parent {
 
     height: 80vh;
@@ -521,7 +522,7 @@ section {
     background-size: cover;
 }
 
-.paragraph2 {
+ .paragraph2 {
     display: grid;
     align-items: center;
     align-content: center;
@@ -622,7 +623,7 @@ button:hover {
     .grid-container {
         grid-template-columns: auto;
     }
-}
+} */
 
 /* ##################################################################################### */
 /* ##################################################################################### */
@@ -727,4 +728,140 @@ button:active {
     font-style: oblique;
     color: white;
     font-size: 30px;
+}
+
+
+
+
+/* new nouran */
+.parent {
+    display: grid;
+    /* grid-template-columns: auto auto auto auto;
+    grid-template-rows: auto auto auto; */
+    grid-template-areas:
+        "heading heading heading heading "
+        "img1 img2 img3 img4"
+        "img5 img6 img7 img8";
+    justify-content: center;
+    /* background-image: url(/ITI-Project/images/delightful-experience/delighted\ experience\ bg.png); */
+    background-color: #333;
+    height: 100%;
+    row-gap: 30px;
+    width: 100%;
+}
+
+.parent .heading {
+    grid-area: heading;
+    text-align: center;
+
+}
+
+.parent .img1 {
+    grid-area: img1;
+    position: relative;
+}
+
+.card {
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    border: 2px solid #000;
+    background-color: #000;
+    opacity: 75%;
+    color: white;
+    padding: 80px;
+    display: none;
+}
+
+.parent .img1:hover .card {
+    display: block;
+}
+.parent .img2:hover .card {
+    display: block;
+}
+.parent .img3:hover .card {
+    display: block;
+}
+.parent .img4:hover .card {
+    display: block;
+}
+.parent .img5:hover .card {
+    display: block;
+}
+.parent .img6:hover .card {
+    display: block;
+}
+.parent .img7:hover .card {
+    display: block;
+}
+.parent .img8:hover .card {
+    display: block;
+}
+
+
+.parent .img2 {
+    grid-area: img2;
+    position: relative;
+
+
+}
+
+.parent .img3 {
+    grid-area: img3;
+    position: relative;
+}
+
+.parent .img4 {
+    grid-area: img4;
+    position: relative;
+}
+
+.parent .img5 {
+    grid-area: img5;
+    position: relative;
+}
+
+.parent .img6 {
+    grid-area: img6;
+    position: relative;
+}
+
+.parent .img7 {
+    grid-area: img7;
+    position: relative;
+}
+
+.parent .img8 {
+    grid-area: img8;
+    position: relative;
+}
+
+@media screen and (max-width:1180px) {
+    .parent {
+        /* grid-template-columns: auto auto; */
+        grid-template-areas:
+            "heading heading"
+            "img1 img2"
+            "img3 img4"
+            "img5 img6"
+            "img7 img8";
+
+
+    }
+}
+
+@media screen and (max-width:600px) {
+    .parent {
+        grid-template-areas:
+            "heading"
+            "img1"
+            "img2"
+            "img3"
+            "img4"
+            "img5"
+            "img6"
+            "img7"
+            "img8";
+    }
 }
