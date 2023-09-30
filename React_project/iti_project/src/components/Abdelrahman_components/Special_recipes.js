@@ -20,7 +20,9 @@ function Special_recipes() {
                         ipsum dolor sit amet consectetur adipisicing elit. Tempore amet expedita nemo, consequatur earum
                     </p>
                 </div>
-
+                <div className="button">
+                    <button>clik here</button>
+                </div>
             </div>
         </div>
     );
