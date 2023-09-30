@@ -1,5 +1,5 @@
 import React from "react";
-
+import Grid from "../nouran component/component.js";
 function Paragraph() {
     return (    
         <div class="paragraph2">
@@ -9,7 +9,7 @@ function Paragraph() {
             <div class="p2">
                 <h3>EXPERIENCE</h3>
             </div>
-            
+            <Grid/>
         </div>
     );
 }
