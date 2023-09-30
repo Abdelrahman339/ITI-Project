@@ -11,6 +11,7 @@ import Navbar from "./components/yassmen component/navbar";
 import HomePage from "./components/yassmen component/homePage";
 import './App.css'
 import paragraph from "./components/nouran component/paragraph";
+import Container from "./components/nouran component/container";
 function App() {
   return (
     <>
@@ -31,6 +32,7 @@ function App() {
         </div>
       </div>
       <Paragraph/>
+      <Container/>
     </>
   );
 }
