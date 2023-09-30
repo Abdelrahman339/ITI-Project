@@ -10,6 +10,7 @@ html {
   scroll-behavior: smooth;
 }
 
+
 h1 {
   font-family: 'Great Vibes', cursive;
   font-size: 40px;
@@ -575,7 +576,7 @@ section {
 }
 
 
-.section2 .contanier .Photos3 img {
+.Photos3 img {
   width: 600px;
   height: 530px;
 }
@@ -584,7 +585,7 @@ section {
 /* End photos3 */
 
 /* Start photos4 */
-.section2 .contanier .Photos4 {
+.Photos4 {
 
   position: absolute;
   bottom: -200px;
