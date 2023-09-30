@@ -11,7 +11,7 @@ function Grid() {
 
     return (
         <>
-          
+            <div className="bg">
             <div className="flex">
                 <Photos1 />
                 <div className="content">
@@ -94,7 +94,7 @@ function Grid() {
                     </div>
                 </div>
             </div>
-         
+            
         </>
     )
 

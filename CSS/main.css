@@ -610,3 +610,106 @@ button:hover {
 /* ##################################################################################### */
 /* ##################################################################################### */
 /* ##################################################################################### */
+
+
+/* phelo section */
+
+
+footer {
+    /* position: fixed; */
+    bottom: 0;
+    left: 0;
+    width: 100%;
+    height: 300px;
+    /* Adjust the height as needed */
+    background-color: #f2f2f2;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 20px;
+    margin: auto;
+    background-image: url(/ITI-Project/images/footer/footer\ BG.png);
+
+}
+
+.feedback {
+    color: white;
+    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+}
+
+.feedback input[type="text"] {
+    background-color: black;
+    color: white;
+    border: none;
+    border-radius: 5px;
+    padding: 10px;
+}
+
+.feedback button {
+    background-color: gold;
+    color: black;
+    border: none;
+    border-radius: 5px;
+    padding: 10px 20px;
+    cursor: pointer;
+}
+
+button:hover,
+button:focus,
+button:active {
+
+    color: #EBF5FF;
+    background-color: #4312AE;
+    cursor: pointer;
+}
+
+
+.working-hours {
+    color: white;
+}
+
+.links {
+    display: flex;
+    list-style: none;
+    padding: 0;
+}
+
+.link-item {
+    margin-right: 25px;
+}
+
+.link {
+    text-decoration: none;
+    color: white;
+    display: flex;
+    align-items: center;
+}
+
+.link-icon {
+    margin-right: 5px;
+}
+
+.section9 {
+    width: 100%;
+    height: 100%;
+    background-image: url(/ITI-Project/images/mobileapp/mobile\ app\ BG.png);
+    background-color: black;
+    display: inline-flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    align-content: center;
+    background-size: cover;
+
+}
+
+.contineer {
+    display: inline-flex;
+    justify-content: center;
+    align-content: center;
+}
+
+.app {
+    font-style: oblique;
+    color: white;
+    font-size: 30px;
+}

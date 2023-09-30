@@ -1,5 +1,7 @@
 import About_us from "./components/Abdelrahman_components/About_us";
 import Special_recipes from './components/Abdelrahman_components/Special_recipes';
+import Photos3 from './components/Abdelrahman_components/Photos3';
+import Photos4 from './Photos4';
 import Before from "./components/yassmen component/before";
 import Navbar from "./components/yassmen component/navbar";
 import HomePage from "./components/yassmen component/homePage";
@@ -23,11 +25,17 @@ function App() {
           <Route path="/pages" element={<Paragraph/>} />
         </Routes>
       </div>
-      <div className="bg">
+      <div class="parent" id="Pages">
+
+          <Paragraph />
+
+          <div class="grid-container">
+            <Grid />
+
+          </div>
         </div>
-    </BrowserRouter>
-    </>
-  );
+      </>
+      );
 }
 
 // ############################################################################
