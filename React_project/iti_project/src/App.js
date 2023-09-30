@@ -30,8 +30,8 @@ function App() {
           </div>
         </div>
       </div>
-      <Paragraph/>
-      <Container/>
+      {/* <Paragraph/>
+      <Container/> */}
     </>
   );
 }
