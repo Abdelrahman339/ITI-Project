@@ -490,7 +490,7 @@ section {
 .parent {
 
   height: 80vh;
-  /* background: url(/ITI-Project/images/delightful-experience/delighted\ experience\ bg.png ); */
+  background: url(./images/delightful-experience/delighted\ experience\ bg.png) ;
   background-size: cover;
 }
 
