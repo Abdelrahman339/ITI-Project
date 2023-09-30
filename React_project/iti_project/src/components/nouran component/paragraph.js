@@ -1,6 +1,6 @@
 import React from "react";
 
-function paragraph() {
+function Paragraph() {
     return (    
         <div class="paragraph2">
             <div class="p1" id="Pages">
@@ -13,4 +13,4 @@ function paragraph() {
         </div>
     );
 }
-export default paragraph;
+export default Paragraph;
