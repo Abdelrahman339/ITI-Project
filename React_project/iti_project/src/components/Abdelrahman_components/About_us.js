@@ -9,7 +9,7 @@ function About_us() {
                     <img className='forward-img' src={require('./images/about-us/about us 1.png')} alt='' />
                     <img className='backward-img' src={require('./images/about-us/about us 2.png')} alt='' />
                 </div>
-                <div className="About_us">
+                <div className="about_us">
                     <div className="heading">
                         <h1>about us</h1>
                         <h3>WE ARE TASTY</h3>
@@ -27,6 +27,9 @@ function About_us() {
                     <div className="button">
                         <button>clik here</button>
                     </div>
+                    <div className="Photos2">
+            <img src={ require('./images/about-us/about us 3.png')} />
+        </div>
                 </div>
             </div>
         </div>

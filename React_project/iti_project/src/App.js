@@ -13,56 +13,19 @@ import './App.css'
 function App() {
   return (
     <>
-      <div class="banner">
-        <div class="contanier">
-          <header>
-            <div className="before">
-              <Before />
-            </div>
-            <div className="navbar" id="Home">
-              <Navbar />
-            </div>
-          </header>
-          <section>
-            <div class="content3" id="Home">
-              <div class="cont">
-                <HomePage />
-              </div>
-            </div>
-          </section>
-        </div>
-      </div>
       <div className="App">
-        <div className="section1">
-          <div className="container">
-            <div className="Photos1">
-            </div>
-            <div className="about-us">
-              <About_us />
-              <div className="button">
-                <Button />
-              </div>
-            </div>
-              <div className="Photos2">
-              <Photos2 />
-              </div>
-          </div>
-        </div>
-
+        <Before />
+        <Navbar />
+        <HomePage />
+        <About_us />
         <div className="section2">
           <div className="contanier">
             <div className="special-recipes">
               <Special_recipes />
-              <div className="button">
-                <Button />
-              </div>
+              <Button />
             </div>
-            <div className="photos3">
-              <Photos3 />
-            </div>
-            <div className="photos4">
-              <Photos4 />
-            </div>
+            <Photos3 />
+            <Photos4 />
           </div>
         </div>
       </div>
