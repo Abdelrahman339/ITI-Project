@@ -1,10 +1,6 @@
 import About_us from "./components/Abdelrahman_components/About_us";
-// import Button from "./components/Abdelrahman_components/button";
-// import Photos1 from "./components/Abdelrahman_components/Photos1";
-import Photos2 from "./components/Abdelrahman_components/Photos2";
+
 import Special_recipes from './components/Abdelrahman_components/Special_recipes';
-import Photos3 from './components/Abdelrahman_components/Photos3';
-import Photos4 from './Photos4';
 import Before from "./components/yassmen component/before";
 import Navbar from "./components/yassmen component/navbar";
 import HomePage from "./components/yassmen component/homePage";
@@ -15,23 +11,23 @@ import NotFound from "./components/yassmen component/notfound";
 
 function App() {
   return (
-    <><BrowserRouter>
+    <>
+    <BrowserRouter>
       <div className="App">
         <Before />
         <Navbar />
-        <HomePage />
-        <About_us />
-        <div className="section2">
-          <div className="contanier">
-            <div className="special-recipes">
-              <Special_recipes />
+        <Routes>
+          <Route path="/" element={<HomePage />} />
+          <Route path="/About" element={<About_us />} />
+          <Route path="*" element={<NotFound/>} />
+          <Route path="/Special" element={<Special_recipes/>}/> 
+          <Route path="/pages" element={<Paragraph/>}/> 
+        </Routes>
+
+          
             </div>
-            <Photos3 />
-            <Photos4 />
-          </div>
-        </div>
-      </div>
-      <div class="parent" id="Pages">
+ 
+      {/* <div class="parent" id="Pages">
 
           <Paragraph />
 
@@ -39,7 +35,8 @@ function App() {
             <Grid />
 
           </div>
-        </div>
+        </div> */}
+        </BrowserRouter>
       </>
       );
 }
