@@ -10,7 +10,8 @@ import Before from "./components/yassmen component/before";
 import Navbar from "./components/yassmen component/navbar";
 import HomePage from "./components/yassmen component/homePage";
 import './App.css'
-import paragraph from "./components/nouran component/paragraph";
+import Paragraph from "./components/nouran component/paragraph";
+import Grid from "./components/nouran component/component";
 function App() {
   return (
     <>
@@ -29,16 +30,23 @@ function App() {
           </div>
         </div>
       </div>
-      {/* <Paragraph/>
-      <Container/> */}
-    </>
-  );
+      <div class="parent" id="Pages">
+
+        <Paragraph />
+
+        <div class="grid-container">
+          <Grid/>
+
+        </div>
+        </div>
+      </>
+      );
 }
 
-// ############################################################################
-// ############################################################################
-// ############################################################################
-export default App;
+      // ############################################################################
+      // ############################################################################
+      // ############################################################################
+      export default App;
 
 
 
