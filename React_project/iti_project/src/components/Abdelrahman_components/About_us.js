@@ -1,4 +1,6 @@
 import React from 'react';
+import Photos2 from './Photos2';
+import Photos1 from './Photos1';
 
 function About_us() {
     return (
@@ -6,8 +8,7 @@ function About_us() {
         <div className="section1 " id="About">
             <div className=" contanier">
                 <div className="Photos1">
-                    <img className='forward-img' src={require('./images/about-us/about us 1.png')} alt='' />
-                    <img className='backward-img' src={require('./images/about-us/about us 2.png')} alt='' />
+                    <Photos1 />
                 </div>
                 <div className="about_us">
                     <div className="heading">
@@ -28,7 +29,7 @@ function About_us() {
                         <button>clik here</button>
                     </div>
                     <div className="Photos2">
-            <img src={ require('./images/about-us/about us 3.png')} />
+                        <Photos2/>
         </div>
                 </div>
             </div>

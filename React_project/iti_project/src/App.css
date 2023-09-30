@@ -27,52 +27,101 @@ h3 {
 } */
 
 
-/* @media (max-width: 768px) {
+@media (min-width:0) and (max-width: 430px) {
 
   .contanier {
     width: 100%;
   }
 
-  .section1 .contanier .about-us {
+  .section1 .contanier .about_us {
     margin-top: 36px;
+    width: 200px;
   }
 
-  .section1 .contanier .photos1 {
+  .section1 .contanier .Photos1 {
     left: 52px;
+  }
+
+  .section1 .contanier .Photos2 img {
+    display: none;
   }
 }
 
-@media (min-width: 768px) {
+@media (min-width:430px) and (max-width: 570px) {
+
+  .contanier {
+    width: 100%;
+  }
+
+  .section1 .contanier .about_us {
+    margin-top: 36px;
+  }
+
+  .section1 .contanier .Photos1 {
+    left: 52px;
+  }
+
+  .section1 .contanier .Photos2 img {
+    width: 50px;
+  }
+}
+
+@media (min-width:570px) and (max-width: 768px) {
+
+  .contanier {
+    width: 100%;
+  }
+
+  .section1 .contanier .about_us {
+    margin-top: 36px;
+  }
+
+  .section1 .contanier .Photos1 {
+    left: 52px;
+  }
+
+  .section1 .contanier .Photos2 img {
+    width: 100px;
+  }
+}
+
+@media (max-width: 768px) {
   .contanier {
     width: 750px;
   }
 
-  .section1 .contanier .about-us {
+  .section1 .contanier .about_us {
     margin-top: 36px;
   }
 
-  .section1 .contanier .photos1 {
+  .section1 .contanier .Photos1 {
     left: 52px;
   }
 
+  .section1 .contanier .Photos2 img {
+    width: 150px;
+  }
 
 }
 
-@media (min-width: 992px) {
+@media (min-width: 768px) and (max-width:1131px) {
   .contanier {
-    width: 970px;
+    width: 750px;
   }
 
-  .section1 .contanier .about-us {
+  .section1 .contanier .about_us {
     margin-top: 36px;
   }
-}
 
-@media (min-width: 1200px) {
-  .contanier {
-    width: 1170px;
+  .section1 .contanier .Photos1 {
+    left: 52px;
   }
-} */
+
+  .section1 .contanier .Photos2 img {
+    width: 150px;
+  }
+
+}
 
 /* End Global Rules */
 

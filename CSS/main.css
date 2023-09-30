@@ -27,50 +27,67 @@ p {
 }
 
 
-@media (max-width: 768px) {
+@media (min-width:0) and (max-width: 430px) {
 
     .contanier {
         width: 100%;
     }
 
-    .section1 .contanier .about-us {
+    .section1 .contanier .about_us {
+        margin-top: 36px;
+        width: 200px;
+    }
+
+    .section1 .contanier .Photos1 {
+        left: 52px;
+    }
+
+    .section1 .contanier .Photos2 img {
+        display: none;
+    }
+}
+
+@media (min-width:430px) and (max-width: 570px) {
+
+    .contanier {
+        width: 100%;
+    }
+
+    .section1 .contanier .about_us {
         margin-top: 36px;
     }
 
-    .section1 .contanier .photos1 {
+    .section1 .contanier .Photos1 {
         left: 52px;
+    }
+
+    .section1 .contanier .Photos2 img {
+        width: 100px;
+    }
+}
+
+@media (min-width:570px) and (max-width: 768px) {
+
+    .contanier {
+        width: 100%;
+    }
+
+    .section1 .contanier .about_us {
+        margin-top: 36px;
+    }
+
+    .section1 .contanier .Photos1 {
+        left: 52px;
+    }
+
+    .section1 .contanier .Photos2 img {
+        width: 150px;
     }
 }
 
 @media (min-width: 768px) {
     .contanier {
         width: 750px;
-    }
-
-    .section1 .contanier .about-us {
-        margin-top: 36px;
-    }
-
-    .section1 .contanier .photos1 {
-        left: 52px;
-    }
-
-
-}
-
-@media (min-width: 992px) {
-    .contanier {
-        width: 970px;
-    }
-
-    .section1 .contanier .about-us {
-        margin-top: 36px;
-    }
-}
-
-@media (min-width: 1200px) {
-    .contanier {
-        width: 1170px;
     }
 }
 
@@ -304,7 +321,7 @@ section {
 
 /* Start About Us */
 
-.section1 .contanier .about-us {
+.section1 .contanier .about_us {
     width: 700px;
     padding: 10px;
     margin-left: 20px;
@@ -312,20 +329,20 @@ section {
 }
 
 
-.section1 .contanier .about-us h3 {
+.section1 .contanier .about_us h3 {
     font-family: Georgia, 'Times New Roman', Times, serif;
     font-weight: 500;
 }
 
-.section1 .contanier .about-us div {
+.section1 .contanier .about_us div {
     padding: 7px;
 }
 
-.section1 .contanier .about-us .button {
+.section1 .contanier .about_us .button {
     margin-top: 20px;
 }
 
-.section1 .contanier .about-us .button button {
+.section1 .contanier .about_us .button button {
     padding: 10px;
     width: 123px;
     background-color: orange;
@@ -653,11 +670,13 @@ footer {
     cursor: pointer;
 }
 
-button:hover, button:focus, button:active {
+button:hover,
+button:focus,
+button:active {
 
-color: #EBF5FF;
-background-color: #4312AE;
-cursor: pointer; 
+    color: #EBF5FF;
+    background-color: #4312AE;
+    cursor: pointer;
 }
 
 
@@ -695,7 +714,7 @@ cursor: pointer;
     justify-content: center;
     align-content: center;
     background-size: cover;
-    
+
 }
 
 .contineer {
@@ -703,7 +722,8 @@ cursor: pointer;
     justify-content: center;
     align-content: center;
 }
-.app{
+
+.app {
     font-style: oblique;
     color: white;
     font-size: 30px;
