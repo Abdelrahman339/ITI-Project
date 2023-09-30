@@ -4,7 +4,7 @@ import About_us from "./components/Abdelrahman_components/About_us";
 import Photos2 from "./components/Abdelrahman_components/Photos2";
 import Special_recipes from './components/Abdelrahman_components/Special_recipes';
 import Photos3 from './components/Abdelrahman_components/Photos3';
-import Photos4 from './Photos4';
+import Photos4 from './components/Abdelrahman_components/Photos4';
 import Before from "./components/yassmen component/before";
 import Navbar from "./components/yassmen component/navbar";
 import HomePage from "./components/yassmen component/homePage";
@@ -19,17 +19,10 @@ function App() {
         <Navbar />
         <HomePage />
         <About_us />
-        <div className="section2">
-          <div className="contanier">
-            <div className="special-recipes">
               <Special_recipes />
             </div>
-            <Photos3 />
-            <Photos4 />
-          </div>
-        </div>
-      </div>
-      <div class="parent" id="Pages">
+
+      {/* <div class="parent" id="Pages">
 
           <Paragraph />
 
@@ -37,7 +30,7 @@ function App() {
             <Grid />
 
           </div>
-        </div>
+        </div> */}
       </>
       );
 }
