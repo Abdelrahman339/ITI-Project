@@ -82,7 +82,7 @@ p {
 /* yassmen sections */
 /* Start header css */
 
-/* .social-media-icons:before {
+.social-media-icons:before {
     content: "";
     position: absolute;
     top: 0;
@@ -91,7 +91,7 @@ p {
     border: 200px solid black;
     border-color: orange transparent transparent transparent;
     z-index: 999;
-} */
+}
 
 .before {
     background-color: white;
@@ -104,9 +104,7 @@ p {
 }
 
 .social-media-icons {
-    background-color: white;
     padding-right: 100px;
-
 }
 
 .social-media-icons a {
@@ -145,11 +143,11 @@ p {
     background: url(/ITI-Project/images/header/header.png) no-repeat;
     background-size: cover;
     background-position: center;
-    display: inline-flex;
+    /* display: inline-flex;
     flex-wrap: wrap;
-    align-items: center;
+    align-items: center; */
     height: 100%;
-    justify-content: center;
+    /* justify-content: center; */
     width: 100%;
 }
 
