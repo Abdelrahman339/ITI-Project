@@ -10,6 +10,7 @@ import Before from "./components/yassmen component/before";
 import Navbar from "./components/yassmen component/navbar";
 import HomePage from "./components/yassmen component/homePage";
 import './App.css'
+import paragraph from "./components/nouran component/paragraph";
 function App() {
   return (
     <>
@@ -66,6 +67,7 @@ function App() {
           </div>
         </div>
       </div>
+      <Paragraph/>
     </>
   );
 }
