@@ -187,7 +187,7 @@ h3 {
   position: absolute;
   top: 0;
   left: 50px;
-  min-height: 400px;
+  min-height: fit-content;
   border: 200px solid black;
   border-color: orange transparent transparent transparent;
   z-index: 999;
@@ -604,113 +604,172 @@ section {
 
 /* nouran sections */
 .parent {
-
-  height: 80vh;
-  background: url(./images/delightful-experience/delighted\ experience\ bg.png);
-  background-size: cover;
-}
-
-.paragraph2 {
+  position: relative;
   display: grid;
-  align-items: center;
-  align-content: center;
-  height: 70vh;
-}
-
-.p1 {
-
-  font-family: 'Borel', cursive;
-  text-align: center;
-  padding-top: 50px;
-}
-
-.p2 {
-  text-align: center;
-  font-size: 30px;
-  padding-bottom: 30px;
-}
-
-.grid-container {
-
-  display: grid;
-
-  grid-template-columns: auto auto auto auto;
-  row-gap: 40px;
+  grid-template-areas:
+    "heading heading heading heading "
+    "img1 img2 img3 img4"
+    "img5 img6 img7 img8";
   justify-content: center;
-  align-items: center;
+  background-image: url('./images/delightful-experience/delighted\ experience\ bg.png');
+  height: 100%;
+  row-gap: 30px;
+  width: 100%;
+  padding-bottom: 40px;
+}
+
+.parent .heading_pages {
+  grid-area: heading;
+  text-align: center;
+}
+
+.parent .heading_pages h3 {
+  text-transform: uppercase;
+}
+
+.parent .img1 {
+  grid-area: img1;
+  position: relative;
+}
+
+.card {
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  border: 2px solid #000;
+  background-color: #000;
+  opacity: 75%;
+  color: white;
+  padding: 20px 40px;
+  display: none;
+  text-align: center;
 
 }
 
-.img {
+.card p {
+  font-size: 25px;
+  padding: 10px;
+}
+
+.card .price {
+  font-size: 40px;
+}
+
+.parent .img1:hover .card {
+  display: block;
+}
+
+.parent .img2:hover .card {
+  display: block;
+}
+
+.parent .img3:hover .card {
+  display: block;
+}
+
+.parent .img4:hover .card {
+  display: block;
+}
+
+.parent .img5:hover .card {
+  display: block;
+}
+
+.parent .img6:hover .card {
+  display: block;
+}
+
+.parent .img7:hover .card {
+  display: block;
+}
+
+.parent .img8:hover .card {
+  display: block;
+}
+
+
+.parent .img2 {
+  grid-area: img2;
   position: relative;
 
+
 }
 
-.content {
+.parent .img3 {
+  grid-area: img3;
+  position: relative;
+}
+
+.parent .img4 {
+  grid-area: img4;
+  position: relative;
+}
+
+.parent .img5 {
+  grid-area: img5;
+  position: relative;
+}
+
+.parent .img6 {
+  grid-area: img6;
+  position: relative;
+}
+
+.parent .img7 {
+  grid-area: img7;
+  position: relative;
+}
+
+.parent .img8 {
+  grid-area: img8;
+  position: relative;
+}
+
+.side-img {
   position: absolute;
-  width: 140px;
-  height: 130px;
-  top: 3285px;
-  text-align: center;
-  z-index: 999;
-  padding: 10px;
-  background-color: black;
-  color: white;
-  opacity: 0.9;
-  display: none;
-  margin: 7px;
+  right: 0;
+  bottom: -200px;
+  z-index: 9;
 }
 
-.flex:hover .content {
-  display: block;
+@media screen and (max-width:1180px) {
+  .parent {
+    /* grid-template-columns: auto auto; */
+    grid-template-areas:
+      "heading heading"
+      "img1 img2"
+      "img3 img4"
+      "img5 img6"
+      "img7 img8";
 
-}
 
-.content2 {
-  position: absolute;
-  width: 140px;
-  height: 130px;
-  top: 3475px;
-  text-align: center;
-  z-index: 999;
-  padding: 10px;
-  background-color: black;
-  color: white;
-  opacity: 0.9;
-  display: none;
-  margin: 7px;
-}
-
-.flex:hover .content2 {
-  display: block;
-
-  transition: opacity 10s ease-in-out;
-}
-
-button {
-  background-color: #e79508;
-  color: white;
-  border-radius: 6px;
-  padding: 4px 10px;
-  border: none;
-}
-
-button:hover {
-  background-color: brown;
+  }
 }
 
 @media screen and (max-width:600px) {
-  .grid-container {
-    grid-template-columns: auto auto;
-
-
+  .parent {
+    grid-template-areas:
+      "heading"
+      "img1"
+      "img2"
+      "img3"
+      "img4"
+      "img5"
+      "img6"
+      "img7"
+      "img8";
   }
 }
 
-@media screen and (max-width:500px) {
-  .grid-container {
-    grid-template-columns: auto;
-  }
+.parent .card .button {
+  padding: 5px;
+  width: 100px;
+  background-color: orange;
+  color: white;
+  border: none;
+  border-radius: 5px;
+  cursor: pointer;
 }
 
 /* ##################################################################################### */
@@ -719,7 +778,8 @@ button:hover {
 
 /* not find page */
 .page-not-find {
-    text-align: center;
-    font-family: 'Times New Roman', Times, serif;
-    font-size: 60px;
+  text-align: center;
+  font-family: 'Times New Roman', Times, serif;
+  font-size: 50px;
+  margin-top: 40px;
 }

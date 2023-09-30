@@ -5,9 +5,10 @@ import Before from "./components/yassmen component/before";
 import Navbar from "./components/yassmen component/navbar";
 import HomePage from "./components/yassmen component/homePage";
 import './App.css'
-import Paragraph from "./components/nouran component/paragraph";
 import { BrowserRouter, Routes, Route } from 'react-router-dom';
 import NotFound from "./components/yassmen component/notfound";
+// import Pages from "./components/nouran component/pages";
+import Pages from "./components/nouran component/pages";
 
 function App() {
   return (
@@ -21,21 +22,11 @@ function App() {
           <Route path="/About" element={<About_us />} />
           <Route path="*" element={<NotFound/>} />
           <Route path="/Special" element={<Special_recipes/>}/> 
-          <Route path="/pages" element={<Paragraph/>}/> 
+            <Route path="/pages" element={<Pages />}/> 
         </Routes>
 
           
             </div>
-
-      {/* <div class="parent" id="Pages">
-
-          <Paragraph />
-
-          <div class="grid-container">
-            <Grid />
-
-          </div>
-        </div> */}
         </BrowserRouter>
       </>
       );
