@@ -501,6 +501,7 @@ section {
     position: absolute;
     bottom: -200px;
     left: 0;
+    z-index: 2;
 }
 
 /* End photos4 */
@@ -735,25 +736,26 @@ button:active {
 
 /* new nouran */
 .parent {
+    position: relative;
     display: grid;
-    /* grid-template-columns: auto auto auto auto;
-    grid-template-rows: auto auto auto; */
     grid-template-areas:
         "heading heading heading heading "
         "img1 img2 img3 img4"
         "img5 img6 img7 img8";
     justify-content: center;
-    /* background-image: url(/ITI-Project/images/delightful-experience/delighted\ experience\ bg.png); */
-    background-color: #333;
+    background-image: url(/ITI-Project/images/delightful-experience/delighted\ experience\ bg.png);
     height: 100%;
     row-gap: 30px;
     width: 100%;
+    padding-bottom: 40px;
 }
 
 .parent .heading {
     grid-area: heading;
     text-align: center;
-
+}
+.parent .heading h3{
+    text-transform: uppercase;
 }
 
 .parent .img1 {
@@ -770,8 +772,17 @@ button:active {
     background-color: #000;
     opacity: 75%;
     color: white;
-    padding: 80px;
+    padding:20px 40px;
     display: none;
+    text-align: center;
+
+}
+.card p{
+font-size:25px; 
+padding: 10px;
+}
+.card .price{
+font-size:40px;
 }
 
 .parent .img1:hover .card {
@@ -837,6 +848,12 @@ button:active {
     position: relative;
 }
 
+.side-img{
+    position: absolute;
+    right: 0;
+    bottom: -200px;
+    z-index: 9;
+}
 @media screen and (max-width:1180px) {
     .parent {
         /* grid-template-columns: auto auto; */
@@ -864,4 +881,13 @@ button:active {
             "img7"
             "img8";
     }
+}
+.parent  .card  .button {
+    padding: 5px;
+    width: 100px;
+    background-color: orange;
+    color: white;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
 }
