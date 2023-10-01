@@ -1,10 +1,10 @@
 import React from 'react';
 import Photos2 from './Photos2';
 import Photos1 from './Photos1';
+import Button from './button';
 
 function About_us() {
     return (
-
         <div className="section1 " id="About">
             <div className=" contanier">
                 <div className="Photos1">
@@ -25,9 +25,7 @@ function About_us() {
                             adipisicing elit. Sequi dignissimos culpa accusantium molestiae explicabo, labore nihil placeat
                             velit sit, nobis fugiat delectus ut non totam odit voluptate, suscipit adipisci illum!</p>
                     </div>
-                    <div className="button">
-                        <button>clik here</button>
-                    </div>
+                    <Button/>
                     <div className="Photos2">
                         <Photos2/>
         </div>

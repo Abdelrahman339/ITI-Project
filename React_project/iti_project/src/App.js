@@ -25,6 +25,7 @@ function App() {
             <Route path="/pages" element={<Pages />}/> 
         </Routes>
 
+
           
             </div>
         </BrowserRouter>

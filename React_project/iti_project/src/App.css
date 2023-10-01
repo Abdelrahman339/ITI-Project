@@ -142,7 +142,7 @@ h3 {
 
 }
 
-.navbar ul li .Table-Booking {
+.Table-Booking {
   border: 1px solid #f1f1f1;
   border-radius: 5px;
   color: #e7a331;
@@ -484,10 +484,6 @@ section {
   text-transform: uppercase;
 }
 
-.parent .img1 {
-  grid-area: img1;
-  position: relative;
-}
 
 .card {
   position: absolute;
@@ -501,7 +497,6 @@ section {
   padding: 20px 40px;
   display: none;
   text-align: center;
-
 }
 
 .card p {
@@ -545,12 +540,14 @@ section {
   display: block;
 }
 
+.parent .img1 {
+  grid-area: img1;
+  position: relative;
+}
 
 .parent .img2 {
   grid-area: img2;
   position: relative;
-
-
 }
 
 .parent .img3 {
@@ -590,34 +587,7 @@ section {
   z-index: 9;
 }
 
-@media screen and (max-width:1180px) {
-  .parent {
-    /* grid-template-columns: auto auto; */
-    grid-template-areas:
-      "heading heading"
-      "img1 img2"
-      "img3 img4"
-      "img5 img6"
-      "img7 img8";
 
-
-  }
-}
-
-@media screen and (max-width:600px) {
-  .parent {
-    grid-template-areas:
-      "heading"
-      "img1"
-      "img2"
-      "img3"
-      "img4"
-      "img5"
-      "img6"
-      "img7"
-      "img8";
-  }
-}
 
 .parent .card .button {
   padding: 5px;
@@ -627,11 +597,11 @@ section {
   border: none;
   border-radius: 5px;
   cursor: pointer;
-  transition: .6s;
 }
 
 .parent .card .button:hover {
   background-color: red;
+  transition: .6s;
 }
 
 /* ##################################################################################### */
@@ -646,10 +616,35 @@ section {
   margin-top: 40px;
 }
 
+
+/* menu card */
+.menu_icons a{
+  color: white;
+  text-decoration: none;
+  font-size: 40px;
+  
+}
+.menu_icons::before{
+  color:white;
+  /* width: 40px; */
+  font-size: 40px;
+  /* display: none; */
+  display: flex;
+  justify-content: flex-start;
+
+
+}
+.menu_Card {
+  border: 2px solid #333;
+  padding: 10px;
+  color: white;
+  text-align: center;
+  translate: right;
+}
+
 /* media  */
 
 @media (max-width: 430px) {
-
   .contanier {
     width: 100%;
   }
@@ -717,6 +712,9 @@ section {
 
 
 @media (min-width:433px) and (max-width: 570px) {
+  .navbar a {
+    display: none;
+  }
 
   .contanier {
     width: 100%;
@@ -818,6 +816,9 @@ section {
 
 
 @media (max-width:1600px) {
+  .navbar {
+    justify-content: center;
+  }
   .section1 .contanier .Photos2 img {
     width: 200px;
   }
@@ -829,4 +830,41 @@ section {
   .social-media-icons::before {
     display: none;
   }
+}
+
+@media screen and (max-width:1180px) {
+  .parent {
+    /* grid-template-columns: auto auto; */
+    grid-template-areas:
+      "heading heading"
+      "img1 img2"
+      "img3 img4"
+      "img5 img6"
+      "img7 img8";
+
+
+  }
+}
+
+@media screen and (max-width:600px) {
+  .parent {
+    grid-template-areas:
+      "heading"
+      "img1"
+      "img2"
+      "img3"
+      "img4"
+      "img5"
+      "img6"
+      "img7"
+      "img8";
+  }
+}
+@media (max-width:1150px){
+  .navbar ul {
+    display: none;
+  }
+    .menu_icons{
+      display: block;
+    }
 }
