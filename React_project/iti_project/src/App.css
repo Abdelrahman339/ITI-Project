@@ -648,7 +648,7 @@ section {
 
 /* media  */
 
-@media  (max-width: 430px) {
+@media (max-width: 430px) {
 
   .contanier {
     width: 100%;
@@ -688,9 +688,10 @@ section {
 }
 
 @media (max-width: 280px) {
-  section{
+  section {
     width: 100%;
   }
+
   .social-media-icons {
     padding: 0;
   }
@@ -817,6 +818,10 @@ section {
 
 
 @media (max-width:1600px) {
+  .section1 .contanier .Photos2 img {
+    width: 200px;
+  }
+
   .section1 {
     height: 100%;
   }
