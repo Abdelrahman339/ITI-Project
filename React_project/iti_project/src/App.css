@@ -111,9 +111,12 @@ h3 {
   min-height: 100px;
   justify-content: flex-end;
   background-color: black;
-
   padding-right: 50px;
+  display: none;
+}
 
+.navbar-active {
+  display: block;
 }
 
 
@@ -292,7 +295,8 @@ section {
   max-width: 450px;
   justify-content: center;
 }
-.section1 .contanier .Photos1 img{
+
+.section1 .contanier .Photos1 img {
   width: 100%;
 }
 
@@ -583,28 +587,11 @@ section {
 
 
 /* menu card */
-.menu_icons a{
+.menu_icons a {
   color: white;
   text-decoration: none;
   font-size: 40px;
-  
-}
-.menu_icons::before{
-  color:white;
-  /* width: 40px; */
-  font-size: 40px;
-  /* display: none; */
-  display: flex;
-  justify-content: flex-start;
-
-
-}
-.menu_Card {
-  border: 2px solid #333;
-  padding: 10px;
-  color: white;
-  text-align: center;
-  translate: right;
+  padding-left: 20px;
 }
 
 /* media  */
@@ -784,6 +771,7 @@ section {
   .navbar {
     justify-content: center;
   }
+
   .section1 .contanier .Photos2 img {
     width: 200px;
   }
@@ -825,11 +813,13 @@ section {
       "img8";
   }
 }
-@media (max-width:1150px){
+
+@media (max-width:1150px) {
   .navbar ul {
     display: none;
   }
-    .menu_icons{
-      display: block;
-    }
+
+  .menu_icons {
+    display: block;
+  }
 }

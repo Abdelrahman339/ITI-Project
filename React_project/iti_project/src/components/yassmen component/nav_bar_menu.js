@@ -1,17 +1,23 @@
-import React from "react";
+import React, { Component } from "react";
 import { Nav, NavLink } from 'react-router-dom'
-function Nav_bar_menu() {
-    function menuClick() {
-        
+import Navbar from "./navbar";
+class Nav_bar_menu extends React.Component {
+    state = {
+        clicked: false
     }
-    return (
-        <>
-            <div className="menu_icons">
-                <NavLink to="#Facebook" ><button onClick={menuClick}><i className="fa-solid fa-bars"></i></button></NavLink>
-            </div>
-
-        </>
-    )
+    handleClick = () => {
+        this.setState({ clicked: !this.state.clicked })
+    }
+    render() {
+        return (
+            <>
+            <div className={this.state.clicked? "navbar-active" : "navbar"}><Navbar/></div>
+                <div className="menu_icons" onClick={this.handleClick}>
+                    <NavLink to="#" > <i id="bar" className={this.state.clicked ? "fa-solid fa-bars" : "fa-solid fa-times"}></i></NavLink>
+                </div>
+            </>
+        )
+    }
 }
 
 export default Nav_bar_menu;
