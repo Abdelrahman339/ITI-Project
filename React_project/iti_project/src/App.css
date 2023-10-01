@@ -59,10 +59,10 @@ h3 {
   width: 100%;
 }
 
-.social-media-icons {
+/* .social-media-icons {
   padding-right: 100px;
 
-}
+} */
 
 .social-media-icons a {
 
@@ -284,51 +284,16 @@ section {
 
 /* End About Us */
 
-/* start scroll up button */
-.scoll-up {
-  position: fixed;
-  bottom: 10px;
-  left: 10px;
-  z-index: 9000;
-}
-
-.scoll-up button {
-  width: 50px;
-  height: 50px;
-  border-radius: 50%;
-  border: none;
-  background: red;
-}
-
-.scoll-up button a {
-  text-decoration: none;
-  color: white;
-  font-size: 30px;
-}
-
-/* End scroll up button */
-
 
 /* Start photos1 */
 
 .section1 .contanier .Photos1 {
   display: flex;
-  position: relative;
-  width: 420px;
-  padding-right: 73px;
+  max-width: 450px;
   justify-content: center;
 }
-
-.section1 .contanier .Photos1 .forward-img {
-  position: relative;
-  z-index: 2;
-  justify-items: center;
-}
-
-.section1 .contanier .Photos1 .backward-img {
-  position: absolute;
-  top: -22px;
-  left: -70px;
+.section1 .contanier .Photos1 img{
+  width: 100%;
 }
 
 /* End photos1 */
