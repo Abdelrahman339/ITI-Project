@@ -255,7 +255,7 @@ h3 {
   min-height: 100px;
   justify-content: flex-end;
   background-color: black;
-
+  
   padding-right: 50px;
 
 }
@@ -771,6 +771,11 @@ section {
   border: none;
   border-radius: 5px;
   cursor: pointer;
+  transition: .6s;
+}
+
+.parent .card .button:hover {
+  background-color: red;
 }
 
 /* ##################################################################################### */
@@ -784,3 +789,4 @@ section {
   font-size: 50px;
   margin-top: 40px;
 }
+
