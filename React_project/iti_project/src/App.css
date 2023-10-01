@@ -28,151 +28,7 @@ h3 {
 } */
 
 
-@media (min-width:0) and (max-width: 430px) {
 
-  .contanier {
-    width: 100%;
-  }
-
-  .section1 .contanier .about_us {
-    margin-top: 36px;
-    width: 200px;
-
-  }
-
-  .section1 .contanier .Photos1 {
-    left: 52px;
-  }
-
-  .section1 .contanier .Photos2 img {
-    display: none;
-  }
-
-
-  .Photos4 img {
-    display: none;
-  }
-}
-
-@media (min-width:430px) and (max-width: 570px) {
-
-  .contanier {
-    width: 100%;
-  }
-
-  .section1 .contanier .about_us {
-    margin-top: 36px;
-  }
-
-  .section1 .contanier .Photos1 {
-    left: 52px;
-  }
-
-  .section1 .contanier .Photos2 img {
-    width: 50px;
-  }
-
-  .Photos3 img {
-    width: 50px;
-    height: 50px;
-  }
-
-  .Photos4 img {
-    width: 50px;
-  }
-}
-
-@media (min-width:570px) and (max-width: 768px) {
-  .contanier {
-    width: 100%;
-  }
-
-  .section1 .contanier .about_us {
-    margin-top: 36px;
-  }
-
-  .section1 .contanier .Photos1 {
-    left: 52px;
-  }
-
-  .section1 .contanier .Photos2 img {
-    width: 100px;
-  }
-
-  .Photos3 img {
-    width: 100px;
-    height: 100px;
-  }
-
-  .Photos4 img {
-    width: 100px;
-  }
-}
-
-@media (max-width: 768px) {
-
-  .contanier {
-    width: 750px;
-  }
-
-  .section1 .contanier .about_us {
-    margin-top: 36px;
-  }
-
-  .section1 .contanier .Photos1 {
-    left: 52px;
-  }
-
-  .section1 .contanier .Photos2 img {
-    width: 150px;
-  }
-
-  .Photos3 img {
-    width: 300px;
-    height: 300px;
-  }
-
-  .Photos4 img {
-    width: 150px;
-  }
-
-}
-
-@media (min-width: 768px) and (max-width:1131px) {
-
-
-  .contanier {
-    width: 750px;
-  }
-
-  .section1 .contanier .about_us {
-    margin-top: 36px;
-  }
-
-  .section1 .contanier .Photos1 {
-    left: 52px;
-  }
-
-  .section1 .contanier .Photos2 img {
-    width: 150px;
-  }
-
-  .photos3 img {
-    width: 300px;
-    height: 300px;
-  }
-}
-
-.Photos4 img {
-  width: 150px;
-}
-
-
-@media (max-width:1600px) {
-  .social-media-icons::before {
-    display: none;
-  }
-}
 
 /* End Global Rules */
 
@@ -255,7 +111,7 @@ h3 {
   min-height: 100px;
   justify-content: flex-end;
   background-color: black;
-  
+
   padding-right: 50px;
 
 }
@@ -378,7 +234,7 @@ section {
   background-image: url(./images/about-us/about\ us\ bg.png);
   display: flex;
   padding: 70px 0;
-  height: 100%;
+  height: 80vh;
   background-size: cover;
   justify-content: center;
   position: relative;
@@ -790,3 +646,182 @@ section {
   margin-top: 40px;
 }
 
+/* media  */
+
+@media  (max-width: 430px) {
+
+  .contanier {
+    width: 100%;
+  }
+
+  .section1 .contanier .about_us {
+    margin-top: 36px;
+    width: 200px;
+
+  }
+
+  .section1 .contanier .Photos1 {
+    /* display: none; */
+    left: 52px;
+  }
+
+  .section1 .contanier .Photos2 img {
+    display: none;
+  }
+
+  .Photos3 img {
+    width: 350px;
+    height: 350px;
+  }
+
+  .section2 .contanier .Special_recipes {
+    width: 350px;
+  }
+
+  .section2 .contanier .Special_recipes::after {
+    display: none;
+  }
+
+  .Photos4 img {
+    display: none;
+  }
+}
+
+@media (max-width: 280px) {
+  section{
+    width: 100%;
+  }
+  .social-media-icons {
+    padding: 0;
+  }
+
+  .Photos3 img {
+    width: 280px;
+    height: 280px;
+  }
+
+  .section2 .contanier .Special_recipes {
+    width: 350px;
+  }
+
+  .section2 .contanier .Special_recipes::after {
+    display: none;
+  }
+
+  .Photos4 img {
+    display: none;
+  }
+}
+
+
+
+@media (min-width:433px) and (max-width: 570px) {
+
+  .contanier {
+    width: 100%;
+  }
+
+  .section1 .contanier .about_us {
+    margin-top: 36px;
+  }
+
+  .section1 .contanier .Photos1 {
+    left: 52px;
+  }
+
+  .section1 .contanier .Photos2 img {
+    width: 150px;
+  }
+
+  .Photos3 img {
+    width: 450px;
+    height: 450px;
+  }
+
+  .section2 .contanier .Special_recipes {
+    width: 450px;
+  }
+
+  .section2 .contanier .Special_recipes::after {
+    display: none;
+  }
+
+
+  .Photos4 img {
+    position: relative;
+    width: 100px;
+    top: -90px;
+  }
+}
+
+@media (min-width:573px) and (max-width: 768px) {
+  .contanier {
+    width: 100%;
+  }
+
+  .section1 .contanier .about_us {
+    margin-top: 36px;
+  }
+
+  .section1 .contanier .Photos1 {
+    left: 52px;
+  }
+
+  .section1 .contanier .Photos2 img {
+    width: 200px;
+  }
+
+  .Photos3 img {
+    width: 500px;
+    height: 500px;
+  }
+
+  .section2 .contanier .Special_recipes {
+    width: 500px;
+  }
+
+  .section2 .contanier .Special_recipes::after {
+    display: none;
+  }
+
+
+  .Photos4 img {
+    position: relative;
+    width: 150px;
+    top: -10px;
+  }
+
+}
+
+
+@media (min-width: 768px) and (max-width:1131px) {
+
+
+  .contanier {
+    width: 750px;
+  }
+
+  .section1 .contanier .about_us {
+    margin-top: 36px;
+  }
+
+  .section1 .contanier .Photos1 {
+    left: 52px;
+  }
+
+  .section1 .contanier .Photos2 img {
+    width: 200px;
+  }
+
+}
+
+
+@media (max-width:1600px) {
+  .section1 {
+    height: 100%;
+  }
+
+  .social-media-icons::before {
+    display: none;
+  }
+}
