@@ -10,6 +10,9 @@ import NotFound from "./components/yassmen component/notfound";
 // import Pages from "./components/nouran component/pages";
 import Pages from "./components/nouran component/pages";
 import Nav_bar_menu from "./components/yassmen component/nav_bar_menu";
+import Footer from "./components/fleopater component/footer";
+import Menu from "./components/michale_components/menu";
+import Mobile from "./components/fleopater component/App";
 
 function App() {
   return (
@@ -24,8 +27,10 @@ function App() {
             <Route path="*" element={<NotFound />} />
             <Route path="/Special" element={<Special_recipes />} />
             <Route path="/pages" element={<Pages />} />
+            <Route path="/Menu" element={<Menu />} />
+            <Route path="/App" element={<Mobile />} />
           </Routes>
-
+          <Footer/>
 
 
         </div>

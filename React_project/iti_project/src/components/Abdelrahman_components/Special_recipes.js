@@ -28,7 +28,7 @@ function Special_recipes() {
                     </div>
                 </div>
             <Photos3 />
-            <Photos4 />
+            {/* <Photos4 /> */}
             </div>
         </div>
     );

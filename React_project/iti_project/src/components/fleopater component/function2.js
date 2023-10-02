@@ -1,7 +1,7 @@
 import React from 'react';
 function feedback() {
     return (
-        <div class="feedback">
+        <div class="feedback" id='feedback'>
             <h2>Feedback</h2>
             <form action="" />
             <input type="text" placeholder="Name" /><br />
@@ -12,3 +12,4 @@ function feedback() {
         </div>
     )
 }
+export default feedback;
