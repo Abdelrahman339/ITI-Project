@@ -4,7 +4,14 @@ import React from "react";
 function Before() {
     return (
         <div>
-            <div class="before">
+            <div className="before">
+                <p className="inside_arrow">
+                    <i className="fa-solid fa-utensils "></i>
+                    
+                    <span>Food </span>
+                    <br/>
+                    <span>Restraunt</span>
+                </p>
                 <div className="social-media">
                     <a href="#"><i class="fa-regular fa-clock"></i> Order Foods 24/7 </a>
                     <a href="#"><i class="fa-solid fa-phone"></i> 061 9867 5432</a>

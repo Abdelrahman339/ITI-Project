@@ -5,7 +5,7 @@ function Navbar() {
     return (
         <div>
 
-            <div class="navbar" id="Home">
+            <div class="navbar , navbar-active" id="Home">
                 <ul>
                     <li><NavLink to="/">Home</NavLink></li>
                     <li><NavLink to="/Menu">Menu</NavLink></li>
@@ -16,7 +16,6 @@ function Navbar() {
                     <li><NavLink to="/Form">Form</NavLink></li>
                     <li><NavLink class="Table-Booking" to="/Table-Booking" style={{ color: "orange", border: "1px solid white", borderRadius: "6px", padding: "10px" }}>Table-Booking</NavLink></li>
                 </ul>
-                <Nav_bar_menu/>
             </div>
 
         </div>
