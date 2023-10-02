@@ -84,6 +84,11 @@ i {
   text-decoration: none;
   color: #e7a331;
 }
+.social-media-icons  {
+letter-spacing: -10px;
+  text-decoration: none;
+  color: #e7a331;
+}
 
 .social-media {
   display: flex;
