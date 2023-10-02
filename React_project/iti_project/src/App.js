@@ -12,7 +12,7 @@ import Pages from "./components/nouran component/pages";
 import Nav_bar_menu from "./components/yassmen component/nav_bar_menu";
 import Footer from "./components/fleopater component/footer";
 import Menu from "./components/michale_components/menu";
-import Mobile from "./components/fleopater component/App";
+import Mobile from "./components/fleopater component/mobile";
 
 function App() {
   return (
