@@ -18,7 +18,6 @@ class Nav_bar_menu extends React.Component {
                         <li><NavLink to="/Pages">Pages</NavLink></li>
                         <li><NavLink to="/Special">Special-Recipes</NavLink></li>
                         <li><NavLink to="/App">Apps</NavLink></li>
-                        <li><NavLink to="/Form">Form</NavLink></li>
                         <li><NavLink class="Table-Booking" to="/Table-Booking">Table-Booking</NavLink></li>
                     </ul>
                     <div className="menu_icons" onClick={this.handleClick}>
