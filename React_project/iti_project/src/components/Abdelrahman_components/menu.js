@@ -1,4 +1,5 @@
 import React from 'react';
+import Photos2 from './Photos2';
 
 function Menu() {
     return (
@@ -54,6 +55,7 @@ function Menu() {
                     </div>
                 </div>
             </div>
+            <Photos2 />
         </div>
     );
 };

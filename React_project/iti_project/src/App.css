@@ -1174,6 +1174,7 @@ button:active {
 /* menu  */
 
 .Menu {
+  position: relative;
   display: flex;
   flex-direction: column;
   justify-content: center;
@@ -1182,6 +1183,16 @@ button:active {
   background-color: #000;
   background-size: cover;
 }
+
+.Menu .Photos2 img {
+  position: absolute;
+  left: 0px;
+  bottom: 1px;
+  transform: rotate(179deg);
+  transform: rotateY(180deg);
+  width: 250px;
+}
+
 
 .Menu-heading {
   color: white;
@@ -1219,6 +1230,7 @@ button:active {
   padding: 15px 0px 30px 0;
 }
 
+
 .menu-card::before {
   content: "";
   width: 76px;
@@ -1226,17 +1238,8 @@ button:active {
   position: absolute;
   background-color: white;
   left: 890px;
-  top: 403px;
+  top: 229px;
 }
-  .menu-card::before {
-    content: "";
-    width: 76px;
-    height: 420px;
-    position: absolute;
-    background-color: white;
-    left: 890px;
-    top: 403px;
-  }
 
 .menu-card p,
 .menu-card h1 {
