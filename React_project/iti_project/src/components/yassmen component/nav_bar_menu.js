@@ -1,5 +1,6 @@
 import React, { Component } from "react";
-import { Nav, NavLink } from 'react-router-dom'
+import {NavLink } from 'react-router-dom'
+import DarkMode from "./DarkMode";
 
 
 // NAVBAR MENU
@@ -14,6 +15,7 @@ class Nav_bar_menu extends React.Component {
     render() {
         return (
             <>
+                <DarkMode/>
                 <div className={this.state.clicked ? "navbar-active" : "navbar"} id="Home">
                     <ul>
                         <li><NavLink to="/">Home</NavLink></li>

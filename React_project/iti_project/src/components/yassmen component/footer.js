@@ -10,11 +10,15 @@ function Footer() {
 
     return (
         <div className='Footer'>
+            <div className='Left-Photo'>
             <Leftphoto />
+            </div>
             <Location />
             <WorkingHours />
             <FeedBack />
+            <div className='Right-photo'>
             <Rightphoto />
+            </div>
             <CoptyRight />
         </div>
     );

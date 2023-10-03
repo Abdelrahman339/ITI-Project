@@ -10,11 +10,16 @@ import Menu from "./components/Abdelrahman_components/menu";
 import Footer from "./components/yassmen component/footer";
 import Mobile from "./components/nouran component/mobile";
 import './App.css'
+
+import DarkMode from "./components/yassmen component/DarkMode";
 function App() {
+
+
   return (
     <>
       <BrowserRouter>
         <div className="App">
+          {/* <DarkMode/> */}
           <Before />
           <Nav_bar_menu />
           <Routes>
