@@ -10,10 +10,11 @@ function Footer() {
 
     return (
         <div className='Footer'>
-            {/* <Leftphoto/> */}
+            <Leftphoto/>
             <Location />
             <WorkingHours />
             <FeedBack />
+            <Rightphoto/>
             <CoptyRight />
             <Rightphoto />
         </div>
