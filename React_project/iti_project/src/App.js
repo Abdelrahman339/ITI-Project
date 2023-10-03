@@ -28,7 +28,7 @@ function App() {
             <Route path="/Special" element={<Special_recipes />} />
             <Route path="/pages" element={<Pages />} />
             <Route path="/Menu" element={<Menu />} />
-            <Route path="/feedback" element={<Footer/>} />
+            <Route path="/Footer" element={<Footer/>} />
             {/* <Route path="/App" element={<Mobile />} /> */}
           </Routes>
 
