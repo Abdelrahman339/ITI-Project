@@ -16,7 +16,7 @@ function Footer() {
             <FeedBack />
             <Rightphoto/>
             <CoptyRight />
-            <Rightphoto />
+  
         </div>
     );
 }
