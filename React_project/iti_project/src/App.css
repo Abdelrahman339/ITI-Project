@@ -999,6 +999,14 @@ section {
   grid-template-areas: 'photo1 location workingHours feedback photo2 ' 'copyRight copyRight copyRight copyRight copyRight ';
   background-image: url(./images/footer/footer\ BG.png);
   color: white;
+  font-family: Georgia, 'Times New Roman', Times, serif;
+  justify-content: space-between;
+
+}
+
+.Footer  h3 {  
+  font-family: 'Great Vibes', cursive;
+
 
 }
 
@@ -1010,15 +1018,12 @@ section {
   grid-area: location;
   display: flex;
   flex-direction: column;
-  padding: 20px;
-  justify-content: space-between;
+  justify-content: space-around;
   font-size: 15px;
   text-align: center;
 }
 
-.Footer div {
-  margin: 0 20px;
-}
+
 
 .Footer .Wh {
   grid-area: workingHours;
@@ -1027,54 +1032,137 @@ section {
   justify-content: space-evenly;
   font-size: 15px;
   text-align: center;
-  margin: 0px;
 }
 
 .Footer .feedback {
+
   grid-area: feedback;
   display: flex;
+  align-items: center;
+  justify-content: space-around;
   flex-direction: column;
   font-size: 15px;
   text-align: left;
-  
 
+
+}
+
+.Footer .feedback h3 {
+  padding-top: 39px;
 }
 
 .Footer .feedback form {
 
   margin: 5px;
   padding: 10px;
- 
+
 }
 
 .Footer .feedback input {
   display: block;
+  width: 350px;
+  height: 40px;
   margin: 5px;
   padding: 10px;
-  border:1px solid #323232; ;
+  border: 1px solid #323232;
   background-color: #323232;
+  border-radius: 5px;
   color: white;
 
 }
+
 .Footer .feedback textarea {
 
   margin: 0 5px;
   padding: 10px;
-  border:1px solid #323232; ;
+  border: 1px solid #323232;
+  ;
   background-color: #323232;
+  border-radius: 5px;
   color: white;
+  height: 100px;
+  width: 350px;
 
-  
+
 }
+
+.Footer .feedback .Button1 {
+
+  padding: 10px;
+  width: 123px;
+  background-color: #e7a331;
+  color: white;
+  border: none;
+  border-radius: 5px;
+  cursor: pointer;
+
+}
+
 .Footer .Right-photo {
   grid-area: photo2;
+  padding: 0px;
+  display: flex;
+  justify-content: flex-end;
 }
 
 .Footer .copyRight {
   grid-area: copyRight;
+  text-align: center;
+  background-color: #0d0d0d;
+  min-height: 40px;
+  width: 100%;
+  /* margin: 10px; */
 }
 
+/* new Mobile App */
 
+.section9 {
+  width: 100%;
+  background-image: url('./images/mobileapp/mobile\ app\ BG.png');
+  background-color: black;
+  display: inline-flex;
+  flex-wrap: wrap;
+  justify-content: center;
+  align-content: center;
+  background-size: cover;
+
+}
+
+.contineer {
+  display: inline-flex;
+  justify-content: center;
+  align-content: center;
+  flex-wrap: wrap;
+}
+
+.app {
+  color: white;
+  font-size: 30px;
+
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  margin-bottom: 100px;
+  padding-left: 40px;
+}
+
+.app .happy {
+  font-family: 'Great Vibes', cursive;
+  font-size: 40px;
+}
+
+.app .mobile {
+  font-family: 'Times New Roman', Times, serif, cursive;
+  font-size: 70px;
+  text-transform: uppercase;
+
+}
+
+.app .os {
+  font-family: 'Times New Roman', Times, serif, cursive;
+  text-transform: uppercase;
+
+}
 
 
 

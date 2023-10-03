@@ -5,7 +5,7 @@ import Location from './location';
 import CoptyRight from './copyRight';
 import Leftphoto from './leftphoto';
 import Rightphoto from './rightphoto';
-
+// FOOTER COMPONENT
 function Footer() {
 
     return (
@@ -19,5 +19,4 @@ function Footer() {
         </div>
     );
 }
-
 export default Footer;
