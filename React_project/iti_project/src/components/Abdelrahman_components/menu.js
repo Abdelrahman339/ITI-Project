@@ -1,5 +1,6 @@
 import React from 'react';
 import Photos2 from './Photos2';
+import Button from './button';
 
 function Menu() {
     return (
