@@ -11,6 +11,8 @@ import NotFound from "./components/yassmen component/notfound";
 import Pages from "./components/nouran component/pages";
 import Nav_bar_menu from "./components/yassmen component/nav_bar_menu";
 import Menu from "./components/Abdelrahman_components/menu";
+// import FeedBack from "./components/yassmen component/feedback";
+import Footer from "./components/yassmen component/footer";
 
 function App() {
   return (
@@ -26,6 +28,7 @@ function App() {
             <Route path="/Special" element={<Special_recipes />} />
             <Route path="/pages" element={<Pages />} />
             <Route path="/Menu" element={<Menu />} />
+            <Route path="/feedback" element={<Footer/>} />
             {/* <Route path="/App" element={<Mobile />} /> */}
           </Routes>
 

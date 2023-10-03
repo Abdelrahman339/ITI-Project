@@ -18,7 +18,7 @@ class Nav_bar_menu extends React.Component {
                         <li><NavLink to="/Pages">Pages</NavLink></li>
                         <li><NavLink to="/Special">Special-Recipes</NavLink></li>
                         <li><NavLink to="/App">Apps</NavLink></li>
-                        <li><NavLink class="Table-Booking" to="/Table-Booking">Table-Booking</NavLink></li>
+                        <li><NavLink to="/Footer">Table-Booking</NavLink></li>
                     </ul>
                     <div className="menu_icons" onClick={this.handleClick}>
                         <NavLink to="#" > <i id="bar" className={this.state.clicked ? "fa-solid fa-times" : "fa-solid fa-bars"}></i></NavLink>
