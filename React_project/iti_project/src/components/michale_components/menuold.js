@@ -2,13 +2,13 @@ import React from 'react';
 
 const Menu = () => {
     return (
-        <div id='Menu'>
+        <div id='menu'>
             <div className="container6">
                 <div className="image">
                     <img src={require("../images/amazing-delicious/amazing delicious 1.png")} alt="Drinks" />
                 </div>
                 <div className="text">
-                    <div className="menu-card">
+                    <div className="menu-item">
                         <h1>Drinks</h1>
                         <p>Menu item 1........$10.99</p>
                         <p>Menu item 2........$12.99</p>
