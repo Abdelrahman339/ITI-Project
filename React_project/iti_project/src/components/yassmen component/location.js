@@ -10,10 +10,14 @@ function Location() {
             </h3>
             <pre>
                 112-Legere ancillae vix ne.
+                <br/>
                 Te elit putent propriae eum,
+                <br/>
                 aliquip nominati
-                
+                <br/>
+                <br/>
                 phone: 00 000 000
+                <br/>
                 Email: support@templatemela.com
             </pre>
             <div className="social-media-icons">

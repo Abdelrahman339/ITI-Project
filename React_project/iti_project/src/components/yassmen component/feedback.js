@@ -3,14 +3,14 @@ import Button from '../Abdelrahman_components/button'
 function FeedBack() {
 
     return (
-        <div>
+        <div className='feedback'>
             <h3>FeedBack Form</h3>
             <form>
-                <input type="text" name="Name"placeholder='Name'/>
-                <input type="email" name="Email"placeholder='Emial'/>
-                <input type="phone" name="Phone"placeholder='Phone'/>
-                <textarea placeholder='Message'/>
                 
+                <input type="text" name="Name"placeholder='Name'/>
+                <input type="email" name="Email"placeholder='Email'/>
+                <input type="phone" name="Phone"placeholder='Phone'/>
+                <textarea  placeholder='Message' cols={1} rows={1}/>
             </form>
             <Button/>
         </div>

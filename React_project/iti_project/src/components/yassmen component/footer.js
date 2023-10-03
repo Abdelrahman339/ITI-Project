@@ -4,19 +4,18 @@ import WorkingHours from './working hours';
 import Location from './location';
 import CoptyRight from './copyRight';
 import Leftphoto from './leftphoto';
-import  Rightphoto from './rightphoto';
+import Rightphoto from './rightphoto';
 
 function Footer() {
 
     return (
         <div className='Footer'>
-            <Leftphoto/>
+            <Leftphoto />
             <Location />
             <WorkingHours />
             <FeedBack />
-            <Rightphoto/>
+            <Rightphoto />
             <CoptyRight />
-  
         </div>
     );
 }

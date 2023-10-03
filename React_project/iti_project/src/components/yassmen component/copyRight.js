@@ -2,7 +2,7 @@ import React from 'react';
 function CoptyRight() {
 
     return (
-        <div>
+        <div className='copyRight'>
             <p><b> Copyright © 2023 </b></p>
         </div>
     );
