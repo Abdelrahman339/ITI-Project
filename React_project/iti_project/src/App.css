@@ -654,361 +654,7 @@ section {
   display: none;
 }
 
-/* media  */
 
-@media (max-width: 430px) {
-  section {
-    width: 100%;
-  }
-
-  .contanier {
-    width: 100%;
-  }
-
-  .section1 .contanier .about_us {
-    margin-top: 36px;
-    width: 200px;
-
-  }
-
-  .section1 .contanier .Photos1 {
-    /* display: none; */
-    left: 52px;
-  }
-
-  .section1 .contanier .Photos2 img {
-    display: none;
-  }
-
-  .Photos3 img {
-    width: 350px;
-    height: 350px;
-  }
-
-  .section2 .contanier .Special_recipes {
-    width: 350px;
-  }
-
-  .section2 .contanier .Special_recipes::after {
-    display: none;
-  }
-
-  .Photos4 img {
-    display: none;
-  }
-
-  .menu_icons a {
-    display: block;
-  }
-
-  .Footer .Left-Photo img {
-    display: none;
-  }
-
-  .Footer .Right-photo img {
-    display: none;
-  }
-
-}
-
-@media (max-width: 280px) {
-  section {
-    width: 100%;
-  }
-
-  .social-media-icons {
-    padding: 0;
-  }
-
-  .Photos3 img {
-    width: 280px;
-    height: 280px;
-  }
-
-  .section2 .contanier .Special_recipes {
-    width: 350px;
-  }
-
-  .section2 .contanier .Special_recipes::after {
-    display: none;
-  }
-
-  .Photos4 img {
-    display: none;
-  }
-
-  .menu_icons a {
-    display: block;
-  }
-}
-
-
-
-@media (min-width:433px) and (max-width: 570px) {
-  .navbar a {
-    display: none;
-  }
-
-  .contanier {
-    width: 100%;
-  }
-
-  .section1 .contanier .about_us {
-    margin-top: 36px;
-  }
-
-  .section1 .contanier .Photos1 {
-    left: 52px;
-  }
-
-  .section1 .contanier .Photos2 img {
-    width: 150px;
-  }
-
-  .Photos3 img {
-    width: 450px;
-    height: 450px;
-  }
-
-  .section2 .contanier .Special_recipes {
-    width: 450px;
-  }
-
-  .section2 .contanier .Special_recipes::after {
-    display: none;
-  }
-
-
-  .Photos4 img {
-    position: relative;
-    width: 100px;
-    top: -90px;
-  }
-
-  .menu_icons a {
-    display: block;
-  }
-
-  .Footer .Left-Photo img {
-    width: 75px;
-  }
-
-  .Footer .Right-photo img {
-    width: 75px;
-    height: 200px;
-  }
-}
-
-@media (min-width:573px) and (max-width: 768px) {
-
-  .contanier {
-    width: 100%;
-  }
-
-  .section1 .contanier .about_us {
-    margin-top: 36px;
-  }
-
-  .section1 .contanier .Photos1 {
-    left: 52px;
-  }
-
-  .section1 .contanier .Photos2 img {
-    width: 200px;
-  }
-
-  .Photos3 img {
-    width: 500px;
-    height: 500px;
-  }
-
-  .section2 .contanier .Special_recipes {
-    width: 500px;
-  }
-
-  .section2 .contanier .Special_recipes::after {
-    display: none;
-  }
-
-
-  .Photos4 img {
-    position: relative;
-    width: 150px;
-    top: -10px;
-  }
-
-  .menu_icons a {
-    display: block;
-  }
-
-  .Footer .Left-Photo img {
-    width: 100px;
-  }
-
-  .Footer .Right-photo img {
-    display: none;
-  }
-
-  .Footer .feedback textarea {
-    margin: 0 5px;
-    padding: 10px;
-    border: 1px solid #323232;
-    background-color: #323232;
-    border-radius: 5px;
-    color: white;
-    height: 100px;
-    width: 250px;
-  }
-
-  .Footer .feedback input {
-    display: block;
-    width: 250px;
-    height: 40px;
-    margin: 5px;
-    padding: 10px;
-    border: 1px solid #323232;
-    background-color: #323232;
-    border-radius: 5px;
-    color: white;
-  }
-}
-
-
-@media (min-width: 768px) and (max-width:1131px) {
-
-
-  .contanier {
-    width: 750px;
-  }
-
-  .section1 .contanier .about_us {
-    margin-top: 36px;
-  }
-
-  .section1 .contanier .Photos1 {
-    left: 52px;
-  }
-
-  .section1 .contanier .Photos2 img {
-    width: 200px;
-  }
-
-  .menu_icons a {
-    display: block;
-  }
-
-  .Footer .Left-Photo img {
-    width: 100px;
-  }
-
-
-  .Footer .Right-photo img {
-    display: none;
-  }
-
-  /* .Footer {
-    grid-template-areas:
-      "photo1 location"
-      "workingHours workingHours"
-      " feedback photo2"
-      "copyright";
-  } */
-}
-
-@media (max-width:1600px) {
-  .navbar {
-    justify-content: center;
-  }
-
-  .section1 .contanier .Photos2 img {
-    width: 200px;
-  }
-
-  .section1 {
-    height: 100%;
-  }
-
-  .social-media-icons::before {
-    display: none;
-  }
-
-  .inside_arrow {
-    display: none;
-  }
-
-  .Footer .Left-Photo img {
-    width: 100px;
-  }
-
-  .Footer .Right-photo img {
-    width: 150px;
-    height: 200px;
-  }
-}
-
-@media screen and (max-width:1180px) {
-  .parent {
-    grid-template-areas:
-      "heading heading"
-      "img1 img2"
-      "img3 img4"
-      "img5 img6"
-      "img7 img8";
-  }
-
-
-}
-
-@media screen and (max-width:600px) {
-  .parent {
-    grid-template-areas:
-      "heading"
-      "img1"
-      "img2"
-      "img3"
-      "img4"
-      "img5"
-      "img6"
-      "img7"
-      "img8";
-  }
-
-  .Footer .feedback textarea {
-    margin: 0 5px;
-    padding: 10px;
-    border: 1px px solid #323232;
-    background-color: #323232;
-    border-radius: 5px;
-    color: white;
-    height: 100px;
-    width: 284px;
-
-  }
-
-  .Footer .Right-photo img {
-    display: none;
-  }
-
-}
-
-@media (max-width:1150px) {
-  .navbar ul {
-    display: none;
-  }
-
-  .menu_icons {
-    display: block;
-  }
-
-  /* .Footer {
-      grid-template-areas:
-        "photo1 photo1 photo1 photo1 photo1 "
-        "location location location location location"
-        "workingHours workingHours"
-        " feedback photo2"
-        "copyright";
-    } */
-}
 
 /* menu  */
 .Menu {
@@ -1173,7 +819,6 @@ section {
   margin: 0 5px;
   padding: 10px;
   border: 1px solid #323232;
-  ;
   background-color: #323232;
   border-radius: 5px;
   color: white;
@@ -1276,7 +921,382 @@ section {
 }
 
 
+/* media  */
 
+@media (max-width: 430px) {
+  section {
+    width: 100%;
+  }
+
+  .contanier {
+    width: 100%;
+  }
+
+  .section1 .contanier .about_us {
+    margin-top: 36px;
+    width: 200px;
+
+  }
+
+  .section1 .contanier .Photos1 {
+    /* display: none; */
+    left: 52px;
+  }
+
+  .section1 .contanier .Photos2 img {
+    display: none;
+  }
+
+  .Photos3 img {
+    width: 350px;
+    height: 350px;
+  }
+
+  .section2 .contanier .Special_recipes {
+    width: 350px;
+  }
+
+  .section2 .contanier .Special_recipes::after {
+    display: none;
+  }
+
+  .Photos4 img {
+    display: none;
+  }
+
+  .menu_icons a {
+    display: block;
+  }
+
+  .Footer .Left-Photo img {
+    display: none;
+  }
+
+  .Footer .Right-photo img {
+    display: none;
+  }
+
+  .Footer {
+    display: flex;
+    flex-direction: column;
+  }
+
+  .Footer .feedback input {
+    width: 200px;
+  }
+
+  .Footer .feedback textarea {
+    width: 200px;
+  }
+}
+
+@media (max-width: 280px) {
+  section {
+    width: 100%;
+  }
+
+  .social-media-icons {
+    padding: 0;
+  }
+
+  .Photos3 img {
+    width: 280px;
+    height: 280px;
+  }
+
+  .section2 .contanier .Special_recipes {
+    width: 350px;
+  }
+
+  .section2 .contanier .Special_recipes::after {
+    display: none;
+  }
+
+  .Photos4 img {
+    display: none;
+  }
+
+  .menu_icons a {
+    display: block;
+  }
+
+  .Footer {
+    display: flex;
+    flex-direction: column;
+  }
+
+  .Footer .feedback input {
+    width: 200px;
+  }
+
+  .Footer .feedback textarea {
+    width: 200px;
+  }
+}
+
+
+
+@media (min-width:433px) and (max-width: 570px) {
+  .navbar a {
+    display: none;
+  }
+
+  .contanier {
+    width: 100%;
+  }
+
+  .section1 .contanier .about_us {
+    margin-top: 36px;
+  }
+
+  .section1 .contanier .Photos1 {
+    left: 52px;
+  }
+
+  .section1 .contanier .Photos2 img {
+    width: 150px;
+  }
+
+  .Photos3 img {
+    width: 450px;
+    height: 450px;
+  }
+
+  .section2 .contanier .Special_recipes {
+    width: 450px;
+  }
+
+  .section2 .contanier .Special_recipes::after {
+    display: none;
+  }
+
+
+  .Photos4 img {
+    position: relative;
+    width: 100px;
+    top: -90px;
+  }
+
+  .menu_icons a {
+    display: block;
+  }
+
+  .Footer .Left-Photo img {
+    display: none;
+  }
+
+  .Footer .Right-photo img {
+    width: 75px;
+    height: 200px;
+  }
+
+  .Footer {
+    display: flex;
+    flex-direction: column;
+  }
+
+  .Footer .feedback input {
+    width: 200px;
+  }
+
+  .Footer .feedback textarea {
+    width: 200px;
+  }
+}
+
+@media (min-width:573px) and (max-width: 780px) {
+
+  .contanier {
+    width: 100%;
+  }
+
+  .section1 .contanier .about_us {
+    margin-top: 36px;
+  }
+
+  .section1 .contanier .Photos1 {
+    left: 52px;
+  }
+
+  .section1 .contanier .Photos2 img {
+    width: 200px;
+  }
+
+  .Photos3 img {
+    width: 500px;
+    height: 500px;
+  }
+
+  .section2 .contanier .Special_recipes {
+    width: 500px;
+  }
+
+  .section2 .contanier .Special_recipes::after {
+    display: none;
+  }
+
+
+  .Photos4 img {
+    position: relative;
+    width: 150px;
+    top: -10px;
+  }
+
+  .menu_icons a {
+    display: block;
+  }
+
+  .Footer .Left-Photo img {
+display: none;
+  }
+
+  .Footer .Right-photo img {
+    display: none;
+  }
+
+  .Footer .feedback {
+    width: 100%;
+  }
+
+  .Footer .feedback input {
+    display: block;
+    width: 100px;
+    height: 40px;
+    margin: 5px;
+    padding: 10px;
+    border: 1px solid #323232;
+    background-color: #323232;
+    border-radius: 5px;
+    color: white;
+  }
+
+  .Footer .feedback textarea {
+    width: 100px;
+  }
+
+  .Footer .feedback .Button1 {
+    width: 100px;
+  }
+}
+
+
+@media (min-width: 768px) and (max-width:1131px) {
+
+
+  .contanier {
+    width: 750px;
+  }
+
+  .section1 .contanier .about_us {
+    margin-top: 36px;
+  }
+
+  .section1 .contanier .Photos1 {
+    left: 52px;
+  }
+
+  .section1 .contanier .Photos2 img {
+    width: 200px;
+  }
+
+  .menu_icons a {
+    display: block;
+  }
+
+  .Footer .Left-Photo img {
+    display: none;
+  }
+
+
+  .Footer .Right-photo img {
+    display: none;
+  }
+
+}
+
+@media (max-width:1600px) {
+  .navbar {
+    justify-content: center;
+  }
+
+  .section1 .contanier .Photos2 img {
+    width: 200px;
+  }
+
+  .section1 {
+    height: 100%;
+  }
+
+  .social-media-icons::before {
+    display: none;
+  }
+
+  .inside_arrow {
+    display: none;
+  }
+
+  .Footer .Left-Photo img {
+    width: 100px;
+  }
+
+  .Footer .Right-photo img {
+    width: 150px;
+    height: 200px;
+  }
+}
+
+@media screen and (max-width:1180px) {
+  .parent {
+    grid-template-areas:
+      "heading heading"
+      "img1 img2"
+      "img3 img4"
+      "img5 img6"
+      "img7 img8";
+  }
+
+
+}
+
+@media screen and (max-width:600px) {
+  .parent {
+    grid-template-areas:
+      "heading"
+      "img1"
+      "img2"
+      "img3"
+      "img4"
+      "img5"
+      "img6"
+      "img7"
+      "img8";
+  }
+
+
+  .Footer .Right-photo img {
+    display: none;
+  }
+
+}
+
+@media (max-width:1150px) {
+  .navbar ul {
+    display: none;
+  }
+
+  .menu_icons {
+    display: block;
+  }
+
+  /* .Footer {
+      grid-template-areas:
+        "photo1 photo1 photo1 photo1 photo1 "
+        "location location location location location"
+        "workingHours workingHours"
+        " feedback photo2"
+        "copyright";
+    } */
+}
 
 
 
